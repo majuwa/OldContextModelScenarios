@@ -25,4 +25,14 @@
       <thinkTime_ClosedWorkload specification="10"/>
     </workload_UsageScenario>
   </usageScenario_UsageModel>
+  <usageScenario_UsageModel id="_J_S84C4_EeuiX-NTW4lBww" entityName="AdministrationCreditCardData">
+    <scenarioBehaviour_UsageScenario id="_MIT30C4_EeuiX-NTW4lBww" entityName="ScenarioBehaviour">
+      <actions_ScenarioBehaviour xsi:type="usagemodel:Start" id="_MIT30S4_EeuiX-NTW4lBww" successor="_O22hsC4_EeuiX-NTW4lBww"/>
+      <actions_ScenarioBehaviour xsi:type="usagemodel:Stop" id="_MIT30i4_EeuiX-NTW4lBww" predecessor="_O22hsC4_EeuiX-NTW4lBww"/>
+      <actions_ScenarioBehaviour xsi:type="usagemodel:EntryLevelSystemCall" id="_O22hsC4_EeuiX-NTW4lBww" entityName="EntryLevelSystemCall1" successor="_MIT30i4_EeuiX-NTW4lBww" predecessor="_MIT30S4_EeuiX-NTW4lBww">
+        <providedRole_EntryLevelSystemCall href="default.system#_vAFWsMOBEeWst9mTsticNA"/>
+        <operationSignature__EntryLevelSystemCall href="default.repository#_N6idsMN3EeWPE-QAhbUzuQ"/>
+      </actions_ScenarioBehaviour>
+    </scenarioBehaviour_UsageScenario>
+  </usageScenario_UsageModel>
 </usagemodel:UsageModel>
