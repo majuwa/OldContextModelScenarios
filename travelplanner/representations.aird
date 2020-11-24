@@ -30,7 +30,7 @@
     <semanticResources>travelplanner.context</semanticResources>
     <ownedViews xmi:type="viewpoint:DView" uid="_caA6QNwrEeeel_96Qa_d5A">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.palladiosimulator.editors.sirius.repository/description/repository.odesign#//@ownedViewpoints[name='Repository']"/>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_YiNQUNwtEeeel_96Qa_d5A" name="new Repository Diagram" repPath="#_YiMCMNwtEeeel_96Qa_d5A" changeId="449f08b5-6f49-40b5-b6f0-3d2dfdafc31b">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_YiNQUNwtEeeel_96Qa_d5A" name="new Repository Diagram" repPath="#_YiMCMNwtEeeel_96Qa_d5A" changeId="6ac6bd1f-a227-4350-ab97-647c875eebb7">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.palladiosimulator.editors.sirius.repository/description/repository.odesign#//@ownedViewpoints[name='Repository']/@ownedRepresentations[name='Repository%20Diagram']"/>
         <target xmi:type="repository:Repository" href="default.repository#_dqFLECHbEd6tG9VclJz3cw"/>
       </ownedRepresentationDescriptors>
@@ -85,13 +85,17 @@
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.palladiosimulator.editors.sirius.seff/description/seff.odesign#//@ownedViewpoints[name='Seff']/@ownedRepresentations[name='Seff%20Diagram']"/>
         <target xmi:type="seff:ResourceDemandingSEFF" href="default.repository#_LFOscN5fEeeel_96Qa_d5A"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_cWupfN5fEeeel_96Qa_d5A" name="Seff Diagram" repPath="#_cWupcN5fEeeel_96Qa_d5A">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_cWupfN5fEeeel_96Qa_d5A" name="Seff Diagram" repPath="#_cWupcN5fEeeel_96Qa_d5A" changeId="c7770858-cbd3-40e9-952f-ca024a99ed45">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.palladiosimulator.editors.sirius.seff/description/seff.odesign#//@ownedViewpoints[name='Seff']/@ownedRepresentations[name='Seff%20Diagram']"/>
         <target xmi:type="seff:ResourceDemandingSEFF" href="default.repository#_brO1YN5fEeeel_96Qa_d5A"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_3FekDN5fEeeel_96Qa_d5A" name="Seff Diagram" repPath="#_3FekAN5fEeeel_96Qa_d5A">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_3FekDN5fEeeel_96Qa_d5A" name="Seff Diagram" repPath="#_3FekAN5fEeeel_96Qa_d5A" changeId="a4f8fe59-f487-45e0-b5e2-09aee91d0bd7">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.palladiosimulator.editors.sirius.seff/description/seff.odesign#//@ownedViewpoints[name='Seff']/@ownedRepresentations[name='Seff%20Diagram']"/>
         <target xmi:type="seff:ResourceDemandingSEFF" href="default.repository#_1NGIAMOAEeWst9mTsticNA"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_LMkCgC2VEeuHsNng7h4KwA" name="&lt;TravelAgency>&lt;payCommission> SEFF Diagram" repPath="#_LMd74C2VEeuHsNng7h4KwA" changeId="48a17813-0ec0-4241-81f8-63fc193898c3">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.palladiosimulator.editors.sirius.seff/description/seff.odesign#//@ownedViewpoints[name='Seff']/@ownedRepresentations[name='Seff%20Diagram']"/>
+        <target xmi:type="seff:ResourceDemandingSEFF" href="default.repository#_KubVAC2VEeuHsNng7h4KwA"/>
       </ownedRepresentationDescriptors>
     </ownedViews>
   </viewpoint:DAnalysis>
@@ -855,6 +859,10 @@
                   <styles xmi:type="notation:FontStyle" xmi:id="_cE-LEd5fEeeel_96Qa_d5A" fontName="Segoe UI" fontHeight="8"/>
                   <layoutConstraint xmi:type="notation:Location" xmi:id="_cE-LEt5fEeeel_96Qa_d5A"/>
                 </children>
+                <children xmi:type="notation:Node" xmi:id="_LR4AUC2VEeuHsNng7h4KwA" type="3010" element="_LM5ZsC2VEeuHsNng7h4KwA">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_LR4AUS2VEeuHsNng7h4KwA" fontName="Cantarell" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_LR4AUi2VEeuHsNng7h4KwA"/>
+                </children>
                 <styles xmi:type="notation:SortingStyle" xmi:id="_YjC92NwtEeeel_96Qa_d5A"/>
                 <styles xmi:type="notation:FilteringStyle" xmi:id="_YjC92dwtEeeel_96Qa_d5A"/>
                 <styles xmi:type="notation:DrawerStyle" xmi:id="_YjC92twtEeeel_96Qa_d5A"/>
@@ -1608,6 +1616,14 @@
           <target xmi:type="seff:ResourceDemandingSEFF" href="default.repository#_brO1YN5fEeeel_96Qa_d5A"/>
           <semanticElements xmi:type="seff:ResourceDemandingSEFF" href="default.repository#_brO1YN5fEeeel_96Qa_d5A"/>
           <ownedStyle xmi:type="diagram:Square" uid="_cDztcd5fEeeel_96Qa_d5A" labelPosition="node" color="255,255,255">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/org.palladiosimulator.editors.sirius.repository/description/repository.odesign#//@ownedViewpoints[name='Repository']/@ownedRepresentations[name='Repository%20Diagram']/@defaultLayer/@containerMappings[name='BasicComponent']/@subContainerMappings[name='SEFFCompartment']/@subNodeMappings[name='SEFF']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.palladiosimulator.editors.sirius.repository/description/repository.odesign#//@ownedViewpoints[name='Repository']/@ownedRepresentations[name='Repository%20Diagram']/@defaultLayer/@containerMappings[name='BasicComponent']/@subContainerMappings[name='SEFFCompartment']/@subNodeMappings[name='SEFF']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" uid="_LM5ZsC2VEeuHsNng7h4KwA" name="Comission.payCommission">
+          <target xmi:type="seff:ResourceDemandingSEFF" href="default.repository#_KubVAC2VEeuHsNng7h4KwA"/>
+          <semanticElements xmi:type="seff:ResourceDemandingSEFF" href="default.repository#_KubVAC2VEeuHsNng7h4KwA"/>
+          <ownedStyle xmi:type="diagram:Square" uid="_LNAucC2VEeuHsNng7h4KwA" labelPosition="node" color="255,255,255">
             <description xmi:type="style:SquareDescription" href="platform:/plugin/org.palladiosimulator.editors.sirius.repository/description/repository.odesign#//@ownedViewpoints[name='Repository']/@ownedRepresentations[name='Repository%20Diagram']/@defaultLayer/@containerMappings[name='BasicComponent']/@subContainerMappings[name='SEFFCompartment']/@subNodeMappings[name='SEFF']/@style"/>
           </ownedStyle>
           <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.palladiosimulator.editors.sirius.repository/description/repository.odesign#//@ownedViewpoints[name='Repository']/@ownedRepresentations[name='Repository%20Diagram']/@defaultLayer/@containerMappings[name='BasicComponent']/@subContainerMappings[name='SEFFCompartment']/@subNodeMappings[name='SEFF']"/>
@@ -3565,7 +3581,7 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.palladiosimulator.editors.sirius.seff/description/seff.odesign#//@ownedViewpoints[name='Seff']/@ownedRepresentations[name='Seff%20Diagram']/@defaultLayer/@edgeMappings[name='ControlFlow']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_eaClAN5fEeeel_96Qa_d5A" name="&lt;&lt;ExternalCallAction>> &#xA;ExternalCallAction1&#xA;Required_FlightOffers_TravelAgency.getFlightOffers" outgoingEdges="_fbLR4N5fEeeel_96Qa_d5A" incomingEdges="_cWupeN5fEeeel_96Qa_d5A" childrenPresentation="VerticalStack">
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_eaClAN5fEeeel_96Qa_d5A" name="&lt;&lt;ExternalCallAction>>&#xA;ExternalCallAction1&#xA;Required_FlightOffers_TravelAgency.getFlightOffersAirline" outgoingEdges="_fbLR4N5fEeeel_96Qa_d5A" incomingEdges="_cWupeN5fEeeel_96Qa_d5A" childrenPresentation="VerticalStack">
       <target xmi:type="seff:ExternalCallAction" href="default.repository#_eJsb4N5fEeeel_96Qa_d5A"/>
       <semanticElements xmi:type="seff:ExternalCallAction" href="default.repository#_eJsb4N5fEeeel_96Qa_d5A"/>
       <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_eaClAd5fEeeel_96Qa_d5A" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
@@ -3769,7 +3785,7 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.palladiosimulator.editors.sirius.seff/description/seff.odesign#//@ownedViewpoints[name='Seff']/@ownedRepresentations[name='Seff%20Diagram']/@defaultLayer/@edgeMappings[name='ControlFlow']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_4ClsgN5fEeeel_96Qa_d5A" name="&lt;&lt;ExternalCallAction>> &#xA;ExternalCallAction1&#xA;Required_BookingConfirmation_Airline.confirmBooking" outgoingEdges="_ISDkwN5gEeeel_96Qa_d5A" incomingEdges="_3FekCN5fEeeel_96Qa_d5A" childrenPresentation="VerticalStack">
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_4ClsgN5fEeeel_96Qa_d5A" name="&lt;&lt;ExternalCallAction>>&#xA;ExternalCallAction1&#xA;Required_BookingConfirmation_Airline.confirmBooking" outgoingEdges="_ISDkwN5gEeeel_96Qa_d5A" incomingEdges="_3FekCN5fEeeel_96Qa_d5A" childrenPresentation="VerticalStack">
       <target xmi:type="seff:ExternalCallAction" href="default.repository#_3o7PUN5fEeeel_96Qa_d5A"/>
       <semanticElements xmi:type="seff:ExternalCallAction" href="default.repository#_3o7PUN5fEeeel_96Qa_d5A"/>
       <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_4Clsgd5fEeeel_96Qa_d5A" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
@@ -3793,7 +3809,7 @@
         <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.palladiosimulator.editors.sirius.seff/description/seff.odesign#//@ownedViewpoints[name='Seff']/@ownedRepresentations[name='Seff%20Diagram']/@defaultLayer/@containerMappings[name='ExternalCallAction']/@subContainerMappings[name='OutputVariableUsageCompartment']"/>
       </ownedDiagramElements>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_GUC_8N5gEeeel_96Qa_d5A" name="&lt;&lt;ExternalCallAction>> &#xA;ExternalCallAction2&#xA;Required_Comission_Airline.payCommission" outgoingEdges="_JF9G4N5gEeeel_96Qa_d5A" incomingEdges="_ISDkwN5gEeeel_96Qa_d5A" childrenPresentation="VerticalStack">
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_GUC_8N5gEeeel_96Qa_d5A" name="&lt;&lt;ExternalCallAction>>&#xA;ExternalCallAction2&#xA;Required_Comission_Airline.payCommission" outgoingEdges="_JF9G4N5gEeeel_96Qa_d5A" incomingEdges="_ISDkwN5gEeeel_96Qa_d5A" childrenPresentation="VerticalStack">
       <target xmi:type="seff:ExternalCallAction" href="default.repository#_F8mwUN5gEeeel_96Qa_d5A"/>
       <semanticElements xmi:type="seff:ExternalCallAction" href="default.repository#_F8mwUN5gEeeel_96Qa_d5A"/>
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
@@ -4470,5 +4486,19 @@
     <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_drDSECjqEeuoSrFTXjz8ug"/>
     <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.palladiosimulator.editors.sirius.usage/description/usage.odesign#//@ownedViewpoints[name='UsageModel']/@ownedRepresentations[name='UsageModel%20Diagram']/@defaultLayer"/>
     <target xmi:type="usagemodel:UsageModel" href="default.usagemodel#/"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram uid="_LMd74C2VEeuHsNng7h4KwA">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_LMg_MC2VEeuHsNng7h4KwA" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_LMg_MS2VEeuHsNng7h4KwA"/>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_LM0hMC2VEeuHsNng7h4KwA" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_LM0hMS2VEeuHsNng7h4KwA" type="Sirius" element="_LMd74C2VEeuHsNng7h4KwA" measurementUnit="Pixel">
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_LM0hMi2VEeuHsNng7h4KwA"/>
+      </data>
+    </ownedAnnotationEntries>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.palladiosimulator.editors.sirius.seff/description/seff.odesign#//@ownedViewpoints[name='Seff']/@ownedRepresentations[name='Seff%20Diagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_LMei8C2VEeuHsNng7h4KwA"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.palladiosimulator.editors.sirius.seff/description/seff.odesign#//@ownedViewpoints[name='Seff']/@ownedRepresentations[name='Seff%20Diagram']/@defaultLayer"/>
+    <target xmi:type="seff:ResourceDemandingSEFF" href="default.repository#_KubVAC2VEeuHsNng7h4KwA"/>
   </diagram:DSemanticDiagram>
 </xmi:XMI>

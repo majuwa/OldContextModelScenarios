@@ -9,6 +9,10 @@
       <steps_Behaviour xsi:type="seff:StopAction" id="_cDzGYd5fEeeel_96Qa_d5A" predecessor_AbstractAction="_eJsb4N5fEeeel_96Qa_d5A"/>
       <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_eJsb4N5fEeeel_96Qa_d5A" entityName="ExternalCallAction1" predecessor_AbstractAction="_cDzGYN5fEeeel_96Qa_d5A" successor_AbstractAction="_cDzGYd5fEeeel_96Qa_d5A" calledService_ExternalService="_R6uH4MNyEeWPE-QAhbUzuQ" role_ExternalService="_rANwMMNzEeWPE-QAhbUzuQ"/>
     </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_KubVAC2VEeuHsNng7h4KwA" describedService__SEFF="_nXaBAMN0EeWPE-QAhbUzuQ">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_LM3kgC2VEeuHsNng7h4KwA" successor_AbstractAction="_LM4LkC2VEeuHsNng7h4KwA"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_LM4LkC2VEeuHsNng7h4KwA" predecessor_AbstractAction="_LM3kgC2VEeuHsNng7h4KwA"/>
+    </serviceEffectSpecifications__BasicComponent>
   </components__Repository>
   <components__Repository xsi:type="repository:BasicComponent" id="_j3xt4MNzEeWPE-QAhbUzuQ" entityName="Airline">
     <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_9cO_kMNzEeWPE-QAhbUzuQ" entityName="Provided_FlightOffers_Airline" providedInterface__OperationProvidedRole="_OWfzMMNyEeWPE-QAhbUzuQ"/>
