@@ -32,6 +32,12 @@
     <semanticResources>Scenarios/test_model_01_empty.context</semanticResources>
     <semanticResources>Scenarios/test_model_04_hierachical_top_down.context</semanticResources>
     <semanticResources>Scenarios/test_model_05_h_tp_error.context</semanticResources>
+    <semanticResources>Scenarios/test_model_06_h_tp_2_layers.context</semanticResources>
+    <semanticResources>Scenarios/test_model_07_h_tp_2_l_error.context</semanticResources>
+    <semanticResources>Scenarios/test_model_08_h_tp_2_children.context</semanticResources>
+    <semanticResources>Scenarios/test_model_09_h_tp_2_c_error.context</semanticResources>
+    <semanticResources>Scenarios/test_model_10_h_bottom_up.context</semanticResources>
+    <semanticResources>Scenarios/test_model_11_h_b_u_error.context</semanticResources>
     <ownedViews xmi:type="viewpoint:DView" uid="_caA6QNwrEeeel_96Qa_d5A">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.palladiosimulator.editors.sirius.repository/description/repository.odesign#//@ownedViewpoints[name='Repository']"/>
       <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_YiNQUNwtEeeel_96Qa_d5A" name="new Repository Diagram" repPath="#_YiMCMNwtEeeel_96Qa_d5A" changeId="6ac6bd1f-a227-4350-ab97-647c875eebb7">
