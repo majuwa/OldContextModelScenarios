@@ -38,6 +38,23 @@
     <semanticResources>Scenarios/test_model_09_h_tp_2_c_error.context</semanticResources>
     <semanticResources>Scenarios/test_model_10_h_bottom_up.context</semanticResources>
     <semanticResources>Scenarios/test_model_11_h_b_u_error.context</semanticResources>
+    <semanticResources>Scenarios/test_model_14_h_b_u_2_children.context</semanticResources>
+    <semanticResources>Scenarios/test_model_12_h_b_u_2_layers.context</semanticResources>
+    <semanticResources>Scenarios/test_model_13_h_b_u_2_l_error.context</semanticResources>
+    <semanticResources>Scenarios/test_model_15_h_b_u_2_c_error.context</semanticResources>
+    <semanticResources>Scenarios/test_model_16_related_context_set.context</semanticResources>
+    <semanticResources>Scenarios/test_model_17_r_c_s_error.context</semanticResources>
+    <semanticResources>Scenarios/test_model_18_missusage.context</semanticResources>
+    <semanticResources>Scenarios/test_model_19_m_error.context</semanticResources>
+    <semanticResources>Scenarios/test_model_20_more_context_sets.context</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/test_model_01_empty_attacker.attacker</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/test_model_01_empty_attacker.context</semanticResources>
+    <semanticResources>Scenarios/test_model_21_mismatch.context</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/test_model_01_empty_attacker.kamp4attackmodificationmarks</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/test_model_02_attacker.kamp4attackmodificationmarks</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/test_model_02_empty_attacker.context</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/test_model_02_empty_attacker.attacker</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/default.system</semanticResources>
     <ownedViews xmi:type="viewpoint:DView" uid="_caA6QNwrEeeel_96Qa_d5A">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.palladiosimulator.editors.sirius.repository/description/repository.odesign#//@ownedViewpoints[name='Repository']"/>
       <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_YiNQUNwtEeeel_96Qa_d5A" name="new Repository Diagram" repPath="#_YiMCMNwtEeeel_96Qa_d5A" changeId="6ac6bd1f-a227-4350-ab97-647c875eebb7">
