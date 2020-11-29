@@ -7,7 +7,7 @@
   </seedModifications>
   <changePropagationSteps xsi:type="KAMP4attackModificationmarks:CredentialChange">
     <compromisedassembly>
-      <affectedElement xsi:type="composition:AssemblyContext" href="default.system#_HRAO0MOAEeWst9mTsticNA"/>
+      <affectedElement xsi:type="composition:AssemblyContext" href="../../default.system#_HRAO0MOAEeWst9mTsticNA"/>
     </compromisedassembly>
   </changePropagationSteps>
 </KAMP4attackModificationmarks:KAMP4attackModificationRepository>

@@ -19,7 +19,7 @@
       <affectedElement xsi:type="model:SingleAttributeContext" href="test_model_02_empty_attacker.context#_OmM78TDDEeu1w8e0Pya2TA"/>
     </contextchange>
     <compromisedlinkingresource>
-      <affectedElement xsi:type="resourceenvironment:LinkingResource" href="../../default.resourceenvironment#_1XdFQMN9EeWPE-QAhbUzuQ"/>
+      <affectedElement xsi:type="resourceenvironment:LinkingResource" href="../../default.resourceenvironment#_niT6YMN9EeWPE-QAhbUzuQ"/>
     </compromisedlinkingresource>
   </changePropagationSteps>
 </KAMP4attackModificationmarks:KAMP4attackModificationRepository>
