@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<context:ConfidentialAccessSpecification xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.palladiosimulator.org/pcm/confidentiality/0.1/" xmlns:model="http://www.palladiosimulator.org/pcm/confidentiality/context/model/0.1/">
+  <setContainer id="_k-MvkCjqEeuoSrFTXjz8ug" entityName="ContextSets"/>
+  <contextContainer id="_mEY7kSjqEeuoSrFTXjz8ug">
+    <context xsi:type="model:SingleAttributeContext" id="_uV6F0SjqEeuoSrFTXjz8ug" entityName="Customer" contexttype="_S5EE0C49EeuiX-NTW4lBww"/>
+    <context xsi:type="model:HierarchicalContext" id="_xhdb0CjqEeuoSrFTXjz8ug" entityName="root" contexttype="_S5EE0C49EeuiX-NTW4lBww" including="_uV6F0SjqEeuoSrFTXjz8ug"/>
+    <context xsi:type="model:HierarchicalContext" id="_ub-x0C4-EeuiX-NTW4lBww" entityName="HomeCity" contexttype="_tYCBgC4-EeuiX-NTW4lBww" including="_0RoWkS4-EeuiX-NTW4lBww" direction="BOTTOM_UP"/>
+    <context xsi:type="model:SingleAttributeContext" id="_0RoWkS4-EeuiX-NTW4lBww" entityName="Home" contexttype="_tYCBgC4-EeuiX-NTW4lBww"/>
+    <context xsi:type="model:SingleAttributeContext" id="_5mhQQS5BEeuiX-NTW4lBww" entityName="DeclassifiedCCD"/>
+  </contextContainer>
+  <typeContainer>
+    <types id="_S5EE0C49EeuiX-NTW4lBww" entityName="User"/>
+    <types id="_tYCBgC4-EeuiX-NTW4lBww" entityName="Location"/>
+  </typeContainer>
+  <pcmspecificationcontainer id="_n0tpsijqEeuoSrFTXjz8ug" entityName="PCM-Specification"/>
+</context:ConfidentialAccessSpecification>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<viewpoint:DAnalysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" uid="_GnEfgDu2EeuWiYt-o9ZDSA" version="14.3.1.202003261200">
+  <semanticResources>cloud.allocation</semanticResources>
+  <semanticResources>cloud.resourceenvironment</semanticResources>
+  <semanticResources>pathmap://PCM_MODELS/Palladio.resourcetype</semanticResources>
+  <semanticResources>cloud.repository</semanticResources>
+  <semanticResources>pathmap://PCM_MODELS/PrimitiveTypes.repository</semanticResources>
+  <semanticResources>newUsageModel.usagemodel</semanticResources>
+  <semanticResources>Attacker_Propagation_Accuracy/01/test_model_01_empty_attacker.attacker</semanticResources>
+  <semanticResources>Attacker_Propagation_Accuracy/01/test_model_01_empty_attacker.context</semanticResources>
+  <semanticResources>Attacker_Propagation_Accuracy/01/test_model_01_empty_attacker.kamp4attackmodificationmarks</semanticResources>
+  <semanticResources>Attacker_Propagation_Accuracy/02/test_model_02_attacker.kamp4attackmodificationmarks</semanticResources>
+  <semanticResources>Attacker_Propagation_Accuracy/02/test_model_02_empty_attacker.attacker</semanticResources>
+  <semanticResources>Attacker_Propagation_Accuracy/02/test_model_02_empty_attacker.context</semanticResources>
+  <semanticResources>Attacker_Propagation_Accuracy/03/test_model.attacker</semanticResources>
+  <semanticResources>Attacker_Propagation_Accuracy/03/test_model.context</semanticResources>
+  <semanticResources>Attacker_Propagation_Accuracy/03/test_model.kamp4attackmodificationmarks</semanticResources>
+  <semanticResources>Attacker_Propagation_Accuracy/04/test_model.attacker</semanticResources>
+  <semanticResources>Attacker_Propagation_Accuracy/04/test_model.context</semanticResources>
+  <semanticResources>Attacker_Propagation_Accuracy/04/test_model.kamp4attackmodificationmarks</semanticResources>
+  <semanticResources>Attacker_Propagation_Accuracy/05/test_model.attacker</semanticResources>
+  <semanticResources>Attacker_Propagation_Accuracy/05/test_model.context</semanticResources>
+  <semanticResources>Attacker_Propagation_Accuracy/05/test_model.kamp4attackmodificationmarks</semanticResources>
+  <semanticResources>Attacker_Propagation_Accuracy/06/test_model.attacker</semanticResources>
+  <semanticResources>Attacker_Propagation_Accuracy/06/test_model.context</semanticResources>
+  <semanticResources>Attacker_Propagation_Accuracy/06/test_model.kamp4attackmodificationmarks</semanticResources>
+  <semanticResources>Attacker_Propagation_Accuracy/07/test_model.attacker</semanticResources>
+  <semanticResources>Attacker_Propagation_Accuracy/07/test_model.context</semanticResources>
+  <semanticResources>Attacker_Propagation_Accuracy/07/test_model.kamp4attackmodificationmarks</semanticResources>
+  <semanticResources>Attacker_Propagation_Accuracy/08/test_model.attacker</semanticResources>
+  <semanticResources>Attacker_Propagation_Accuracy/08/test_model.context</semanticResources>
+  <semanticResources>Attacker_Propagation_Accuracy/08/test_model.kamp4attackmodificationmarks</semanticResources>
+  <semanticResources>Attacker_Propagation_Accuracy/09/test_model.attacker</semanticResources>
+  <semanticResources>Attacker_Propagation_Accuracy/09/test_model.context</semanticResources>
+  <semanticResources>Attacker_Propagation_Accuracy/09/test_model.kamp4attackmodificationmarks</semanticResources>
+  <semanticResources>Attacker_Propagation_Accuracy/10/test_model.attacker</semanticResources>
+  <semanticResources>Attacker_Propagation_Accuracy/10/test_model.context</semanticResources>
+  <semanticResources>Attacker_Propagation_Accuracy/10/test_model.kamp4attackmodificationmarks</semanticResources>
+</viewpoint:DAnalysis>

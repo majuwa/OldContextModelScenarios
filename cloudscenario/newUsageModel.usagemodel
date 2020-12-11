@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ASCII"?>
+<usagemodel:UsageModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:usagemodel="http://palladiosimulator.org/PalladioComponentModel/UsageModel/5.2">
+  <usageScenario_UsageModel id="_FiHGkDuKEeuV5L0zPgC_zw" entityName="UsageScenario">
+    <scenarioBehaviour_UsageScenario id="_HBPXADuKEeuV5L0zPgC_zw" entityName="ScenarioBehaviour">
+      <actions_ScenarioBehaviour xsi:type="usagemodel:Start" id="_HBP-EDuKEeuV5L0zPgC_zw" successor="_IWn1kDuKEeuV5L0zPgC_zw"/>
+      <actions_ScenarioBehaviour xsi:type="usagemodel:Stop" id="_HBP-ETuKEeuV5L0zPgC_zw" predecessor="_TLkl4DuKEeuV5L0zPgC_zw"/>
+      <actions_ScenarioBehaviour xsi:type="usagemodel:EntryLevelSystemCall" id="_IWn1kDuKEeuV5L0zPgC_zw" entityName="EntryLevelSystemCall1" successor="_QZgG4DuKEeuV5L0zPgC_zw" predecessor="_HBP-EDuKEeuV5L0zPgC_zw">
+        <providedRole_EntryLevelSystemCall href="cloud.system#_9Ou68G9dEeam26epJlCOmw"/>
+        <operationSignature__EntryLevelSystemCall href="cloud.repository#_ki_F4G6MEeam26epJlCOmw"/>
+      </actions_ScenarioBehaviour>
+      <actions_ScenarioBehaviour xsi:type="usagemodel:EntryLevelSystemCall" id="_QZgG4DuKEeuV5L0zPgC_zw" entityName="EntryLevelSystemCall2" successor="_TLkl4DuKEeuV5L0zPgC_zw" predecessor="_IWn1kDuKEeuV5L0zPgC_zw">
+        <providedRole_EntryLevelSystemCall href="cloud.system#_9Ou68G9dEeam26epJlCOmw"/>
+        <operationSignature__EntryLevelSystemCall href="cloud.repository#_mdiHAG6MEeam26epJlCOmw"/>
+      </actions_ScenarioBehaviour>
+      <actions_ScenarioBehaviour xsi:type="usagemodel:EntryLevelSystemCall" id="_TLkl4DuKEeuV5L0zPgC_zw" entityName="EntryLevelSystemCall3" successor="_HBP-ETuKEeuV5L0zPgC_zw" predecessor="_QZgG4DuKEeuV5L0zPgC_zw">
+        <providedRole_EntryLevelSystemCall href="cloud.system#_9Ou68G9dEeam26epJlCOmw"/>
+        <operationSignature__EntryLevelSystemCall href="cloud.repository#_j4Hj8G6MEeam26epJlCOmw"/>
+      </actions_ScenarioBehaviour>
+    </scenarioBehaviour_UsageScenario>
+  </usageScenario_UsageModel>
+</usagemodel:UsageModel>
