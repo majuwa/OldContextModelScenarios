@@ -7,13 +7,16 @@
   </seedModifications>
   <changePropagationSteps xsi:type="KAMP4attackModificationmarks:CredentialChange">
     <compromisedresource toolderived="true">
-      <affectedElement xsi:type="resourceenvironment:ResourceContainer" href="../../default.resourceenvironment#_fuWBEMN4EeWPE-QAhbUzuQ"/>
+      <affectedElement xsi:type="resourceenvironment:ResourceContainer" href="../../cloud.resourceenvironment#_GuivgNQqEeWaFY2No-N26g"/>
     </compromisedresource>
     <compromisedassembly>
-      <affectedElement xsi:type="composition:AssemblyContext" href="../../default.system#_HRAO0MOAEeWst9mTsticNA"/>
+      <affectedElement xsi:type="composition:AssemblyContext" href="../../cloud.system#_aP3FgBaCEeabKfvw_S-vrQ"/>
+    </compromisedassembly>
+    <compromisedassembly toolderived="true">
+      <affectedElement xsi:type="composition:AssemblyContext" href="../../cloud.system#_YHrRABaCEeabKfvw_S-vrQ"/>
     </compromisedassembly>
     <contextchange>
-      <affectedElement xsi:type="model:SingleAttributeContext" href="test_model.context#_zCS7ATDCEeu1w8e0Pya2TA"/>
+      <affectedElement xsi:type="model:SingleAttributeContext" href="test_model.context#_nX0mcTx_EeuL26-fyeDGLQ"/>
     </contextchange>
   </changePropagationSteps>
 </KAMP4attackModificationmarks:KAMP4attackModificationRepository>

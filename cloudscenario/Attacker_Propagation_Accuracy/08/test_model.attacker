@@ -2,7 +2,7 @@
 <attacker:AttackerSpecification xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:attack="http://www.palladiosimulator.org/pcm/confidentiality/attacker/0.1/" xmlns:attacker="http://www.palladiosimulator.org/pcm/confidentiality/attack/0.1/" xmlns:model="http://www.palladiosimulator.org/pcm/confidentiality/context/model/0.1/">
   <attackers>
     <attacker id="_IZ8M0DCpEeuxNbWFFoUCSA" entityName="EmptyAttacker" capabilities="_IzEegDCpEeuxNbWFFoUCSA">
-      <compromisedComponents href="../../default.system#_HRAO0MOAEeWst9mTsticNA"/>
+      <compromisedComponents href="../../cloud.system#_aP3FgBaCEeabKfvw_S-vrQ"/>
     </attacker>
   </attackers>
   <attacks>
@@ -10,7 +10,7 @@
   </attacks>
   <vulnerabilites>
     <vulnerability xsi:type="attack:CredentialVulnerability" id="_t2jYQDCpEeuxNbWFFoUCSA">
-      <context xsi:type="model:SingleAttributeContext" href="test_model.context#_zCS7ATDCEeu1w8e0Pya2TA"/>
+      <context xsi:type="model:SingleAttributeContext" href="test_model.context#_nX0mcTx_EeuL26-fyeDGLQ"/>
     </vulnerability>
   </vulnerabilites>
 </attacker:AttackerSpecification>

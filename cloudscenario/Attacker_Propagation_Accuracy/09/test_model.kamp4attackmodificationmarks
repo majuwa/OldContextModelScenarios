@@ -7,13 +7,13 @@
   </seedModifications>
   <changePropagationSteps xsi:type="KAMP4attackModificationmarks:CredentialChange">
     <compromisedassembly>
-      <affectedElement xsi:type="composition:AssemblyContext" href="../../default.system#_2pBlYMN-EeWst9mTsticNA"/>
+      <affectedElement xsi:type="composition:AssemblyContext" href="../../cloud.system#_aP3FgBaCEeabKfvw_S-vrQ"/>
     </compromisedassembly>
     <contextchange>
-      <affectedElement xsi:type="model:SingleAttributeContext" href="test_model.context#_OmM78TDDEeu1w8e0Pya2TA"/>
+      <affectedElement xsi:type="model:SingleAttributeContext" href="test_model.context#_VV3ncTyAEeuL26-fyeDGLQ"/>
     </contextchange>
     <compromisedlinkingresource toolderived="true">
-      <affectedElement xsi:type="resourceenvironment:LinkingResource" href="../../default.resourceenvironment#_niT6YMN9EeWPE-QAhbUzuQ"/>
+      <affectedElement xsi:type="resourceenvironment:LinkingResource" href="../../cloud.resourceenvironment#_PhSXgNQqEeWaFY2No-N26g"/>
     </compromisedlinkingresource>
   </changePropagationSteps>
 </KAMP4attackModificationmarks:KAMP4attackModificationRepository>

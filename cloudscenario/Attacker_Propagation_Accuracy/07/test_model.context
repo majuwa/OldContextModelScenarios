@@ -1,170 +1,150 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<context:ConfidentialAccessSpecification xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:asembly="http://www.palladiosimulator.org/pcm/confidentiality/context/specification/assembly/0.1/" xmlns:composition="http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.2" xmlns:context="http://www.palladiosimulator.org/pcm/confidentiality/0.1/" xmlns:model="http://www.palladiosimulator.org/pcm/confidentiality/context/model/0.1/" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2">
+<context:ConfidentialAccessSpecification xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:asembly="http://www.palladiosimulator.org/pcm/confidentiality/context/specification/assembly/0.1/" xmlns:context="http://www.palladiosimulator.org/pcm/confidentiality/0.1/" xmlns:model="http://www.palladiosimulator.org/pcm/confidentiality/context/model/0.1/">
   <setContainer id="_k-MvkCjqEeuoSrFTXjz8ug" entityName="ContextSets">
-    <policies id="_66f3YCphEeu2k9cuIp092g" entityName="AccessOperationBookSelected" contexts="_uV6F0SjqEeuoSrFTXjz8ug"/>
-    <policies id="_9EuTQCphEeu2k9cuIp092g" entityName="AccessOperationBookFlight" contexts="_uV6F0SjqEeuoSrFTXjz8ug _5mhQQS5BEeuiX-NTW4lBww"/>
-    <policies id="__0ynICphEeu2k9cuIp092g" entityName="AccessOperationReleaseCCD" contexts="_uV6F0SjqEeuoSrFTXjz8ug _0RoWkS4-EeuiX-NTW4lBww"/>
-    <policies id="_BVVM0CpiEeu2k9cuIp092g" entityName="AccessOperationSetDeclassified" contexts="_uV6F0SjqEeuoSrFTXjz8ug _0RoWkS4-EeuiX-NTW4lBww"/>
-    <policies id="_EO1wkCpiEeu2k9cuIp092g" entityName="AccessOperationGetFlightOffers" contexts="_uV6F0SjqEeuoSrFTXjz8ug"/>
-    <policies id="_F108gCpiEeu2k9cuIp092g" entityName="AccessOperationGetFlightOffersTravelplannerTravelAgency" contexts="_uV6F0SjqEeuoSrFTXjz8ug"/>
-    <policies id="_HZnqgCpiEeu2k9cuIp092g" entityName="AccessOperationGetFlightOffersTravelAgencyAirline" contexts="_uV6F0SjqEeuoSrFTXjz8ug"/>
-    <policies id="_JPBF4CpiEeu2k9cuIp092g" entityName="AccessOperationConfirmBooking" contexts="_uV6F0SjqEeuoSrFTXjz8ug _5mhQQS5BEeuiX-NTW4lBww"/>
-    <policies id="_J1Tp0CpiEeu2k9cuIp092g" entityName="AccessOperationPayCommision" contexts="_uV6F0SjqEeuoSrFTXjz8ug _5mhQQS5BEeuiX-NTW4lBww"/>
-    <policies id="_k6_WUCplEeu2k9cuIp092g" entityName="AccessOperationSetAvailableFlights" contexts="_uV6F0SjqEeuoSrFTXjz8ug"/>
-    <policies id="_LnpNUCpmEeu2k9cuIp092g" entityName="AccessOperationSetCreditCardData" contexts="_uV6F0SjqEeuoSrFTXjz8ug"/>
-    <policies id="_pTYIICo_Eeu2k9cuIp092g" entityName="AccessComponentTravelplanner" contexts="_uV6F0SjqEeuoSrFTXjz8ug"/>
-    <policies id="_sIMZICo_Eeu2k9cuIp092g" entityName="AccessComponentTravelAgency" contexts="_TwwWQTC4Eeu1w8e0Pya2TA"/>
-    <policies id="_uXPDkCo_Eeu2k9cuIp092g" entityName="AccessComponentCreditCardCenter" contexts="_uV6F0SjqEeuoSrFTXjz8ug"/>
-    <policies id="_xCOqMCo_Eeu2k9cuIp092g" entityName="AccessComponentAirline" contexts="_w-Iq4TDCEeu1w8e0Pya2TA"/>
-    <policies id="_y3oFkCo_Eeu2k9cuIp092g" entityName="AccessNetwork4G" contexts="_OmM78TDDEeu1w8e0Pya2TA"/>
-    <policies id="_-XYtcCo_Eeu2k9cuIp092g" entityName="AccessNetworkOpenWifi" contexts="_uV6F0SjqEeuoSrFTXjz8ug"/>
-    <policies id="_BEhpICpAEeu2k9cuIp092g" entityName="AccessNetworkInternet" contexts="_DOgD4TDDEeu1w8e0Pya2TA"/>
-    <policies id="_EIQf4CpAEeu2k9cuIp092g" entityName="AccessHardwareAirlineServer" contexts="_zCS7ATDCEeu1w8e0Pya2TA"/>
-    <policies id="_GXHkICpAEeu2k9cuIp092g" entityName="AccessHardwareAgencyServer" contexts="_Vuvs8TC4Eeu1w8e0Pya2TA"/>
-    <policies id="_If9f8CpAEeu2k9cuIp092g" entityName="AccessHardwarePhone" contexts="_uV6F0SjqEeuoSrFTXjz8ug _OmM78TDDEeu1w8e0Pya2TA"/>
-    <policies id="_hCabkC4xEeu9t6WbBqVIgA" entityName="UsageGetFlight" contexts="_uV6F0SjqEeuoSrFTXjz8ug"/>
-    <policies id="_px7JYC4xEeu9t6WbBqVIgA" entityName="UsageReleaseCCD" contexts="_uV6F0SjqEeuoSrFTXjz8ug _0RoWkS4-EeuiX-NTW4lBww"/>
-    <policies id="_-7JJYC4yEeu9t6WbBqVIgA" entityName="UsageDeclassifyCCD" contexts="_uV6F0SjqEeuoSrFTXjz8ug _0RoWkS4-EeuiX-NTW4lBww"/>
-    <policies id="_BJM8YC4zEeu9t6WbBqVIgA" entityName="UsageBookSelected" contexts="_uV6F0SjqEeuoSrFTXjz8ug _5mhQQS5BEeuiX-NTW4lBww"/>
-    <policies id="_jwHPkC4_EeuiX-NTW4lBww" entityName="UsageAdministrationCreditCardData" contexts="_ub-x0C4-EeuiX-NTW4lBww _uV6F0SjqEeuoSrFTXjz8ug"/>
-    <policies id="_6jsWQDDKEeu1w8e0Pya2TA" entityName="SpecialAccessPhone" contexts="_OmM78TDDEeu1w8e0Pya2TA"/>
-    <policies id="_3hlBEDIzEeuA2uq8qyYyoA" entityName="additionalAirline" contexts="_zvX6wTIzEeuA2uq8qyYyoA"/>
+    <policies id="_gi2q0DxgEeuB4alMTAqN-Q" entityName="AccessContextCalendarA" contexts="_nX0mcTx_EeuL26-fyeDGLQ"/>
+    <policies id="_jZHGQDxgEeuB4alMTAqN-Q" entityName="AccessContextCalendarB" contexts="_pAE9sTx_EeuL26-fyeDGLQ"/>
+    <policies id="_lTBOMDxgEeuB4alMTAqN-Q" entityName="AccessContextDatabase" contexts="_OgG0ETyBEeuL26-fyeDGLQ"/>
+    <policies id="_mzRgADxgEeuB4alMTAqN-Q" entityName="AccessContextDBAdminTool" contexts="_OgG0ETyBEeuL26-fyeDGLQ"/>
+    <policies id="_qcheoDxgEeuB4alMTAqN-Q" entityName="AccessContextDBLogging" contexts="_OgG0ETyBEeuL26-fyeDGLQ"/>
+    <policies id="_sjOscDxgEeuB4alMTAqN-Q" entityName="AccessContextFileManagerA" contexts="_nX0mcTx_EeuL26-fyeDGLQ"/>
+    <policies id="_vElO4DxgEeuB4alMTAqN-Q" entityName="AccessContextFileManagerB" contexts="_pAE9sTx_EeuL26-fyeDGLQ"/>
+    <policies id="_2_Jm0DxiEeuB4alMTAqN-Q" entityName="AccessContextLBAdminTool" contexts="_RwF-ITyBEeuL26-fyeDGLQ"/>
+    <policies id="_6AkJYDxiEeuB4alMTAqN-Q" entityName="AccessContextLBLoggin" contexts="_RwF-ITyBEeuL26-fyeDGLQ"/>
+    <policies id="_814JoDxiEeuB4alMTAqN-Q" entityName="AccessContextLoadBalancer" contexts="_nByaITyBEeuL26-fyeDGLQ"/>
+    <policies id="_-fHYUDxiEeuB4alMTAqN-Q" entityName="AccessContextNetworkFilesystem" contexts="_RwF-ITyBEeuL26-fyeDGLQ"/>
+    <policies id="_jKy2EDxjEeuB4alMTAqN-Q" entityName="AccessContextNWFSAdminTool" contexts="_RwF-ITyBEeuL26-fyeDGLQ"/>
+    <policies id="_mbCe0DxjEeuB4alMTAqN-Q" entityName="AccessContextNWFSLogging" contexts="_RwF-ITyBEeuL26-fyeDGLQ"/>
+    <policies id="_pDd5oDxjEeuB4alMTAqN-Q" entityName="AccessContextOCAADminTool" contexts="_RwF-ITyBEeuL26-fyeDGLQ"/>
+    <policies id="_rahQkDxjEeuB4alMTAqN-Q" entityName="AccessContextOCBLogging" contexts="_RwF-ITyBEeuL26-fyeDGLQ"/>
+    <policies id="_wc9PsDxjEeuB4alMTAqN-Q" entityName="AccessContextOwncloudA" contexts="_RwF-ITyBEeuL26-fyeDGLQ"/>
+    <policies id="_z_0ScDxjEeuB4alMTAqN-Q" entityName="AccessContextOwnCloudB" contexts="_RwF-ITyBEeuL26-fyeDGLQ"/>
+    <policies id="_1-C5sDxjEeuB4alMTAqN-Q" entityName="AccessContextPublicCalendar" contexts="_RwF-ITyBEeuL26-fyeDGLQ"/>
+    <policies id="_4s66wDxjEeuB4alMTAqN-Q" entityName="AccessContextPublicFileManager" contexts="_RwF-ITyBEeuL26-fyeDGLQ"/>
+    <policies id="_BSQG8DxmEeuB4alMTAqN-Q" entityName="AccessNetworkIntranetInner" contexts="_FSDwITyBEeuL26-fyeDGLQ"/>
+    <policies id="_EcspsDxmEeuB4alMTAqN-Q" entityName="AccessNetworkIntranetOuter" contexts="_FSDwITyBEeuL26-fyeDGLQ"/>
+    <policies id="_GSsiADxmEeuB4alMTAqN-Q" entityName="AccessNetworkInternet" contexts="_VV3ncTyAEeuL26-fyeDGLQ"/>
+    <policies id="_L8ajkDxmEeuB4alMTAqN-Q" entityName="AccessHardwareEndUserA" contexts="_nX0mcTx_EeuL26-fyeDGLQ"/>
+    <policies id="_Pk9-oDxmEeuB4alMTAqN-Q" entityName="AccessHardwareEndUserB" contexts="_pAE9sTx_EeuL26-fyeDGLQ"/>
+    <policies id="_RetugDxmEeuB4alMTAqN-Q" entityName="AccessHardwareGuest" contexts="_qn4B8Tx_EeuL26-fyeDGLQ"/>
+    <policies id="_TPwOUDxmEeuB4alMTAqN-Q" entityName="AccessHardwareVMA" contexts="_nkRxQTyDEeuL26-fyeDGLQ"/>
+    <policies id="_WKycEDxmEeuB4alMTAqN-Q" entityName="AccessHardwareVMB" contexts="_nkRxQTyDEeuL26-fyeDGLQ"/>
+    <policies id="_1L4VkDxmEeuB4alMTAqN-Q" entityName="AccessHardwareVMC" contexts="_nkRxQTyDEeuL26-fyeDGLQ"/>
+    <policies id="_3DwdMDxmEeuB4alMTAqN-Q" entityName="AccessHardwareVMD" contexts="_nkRxQTyDEeuL26-fyeDGLQ"/>
+    <policies id="_6XMj4DxmEeuB4alMTAqN-Q" entityName="AccessHardwareVME" contexts="_nkRxQTyDEeuL26-fyeDGLQ"/>
   </setContainer>
   <contextContainer id="_mEY7kSjqEeuoSrFTXjz8ug">
-    <context xsi:type="model:SingleAttributeContext" id="_uV6F0SjqEeuoSrFTXjz8ug" entityName="Customer" contexttype="_S5EE0C49EeuiX-NTW4lBww"/>
-    <context xsi:type="model:HierarchicalContext" id="_xhdb0CjqEeuoSrFTXjz8ug" entityName="root" contexttype="_S5EE0C49EeuiX-NTW4lBww" including="_uV6F0SjqEeuoSrFTXjz8ug"/>
+    <context xsi:type="model:HierarchicalContext" id="_xhdb0CjqEeuoSrFTXjz8ug" entityName="root" contexttype="_S5EE0C49EeuiX-NTW4lBww" including="_tQVR8Dx_EeuL26-fyeDGLQ _FSDwITyBEeuL26-fyeDGLQ _RwF-ITyBEeuL26-fyeDGLQ _OgG0ETyBEeuL26-fyeDGLQ"/>
+    <context xsi:type="model:HierarchicalContext" id="_tQVR8Dx_EeuL26-fyeDGLQ" entityName="Users" contexttype="_tYCBgC4-EeuiX-NTW4lBww" including="_nX0mcTx_EeuL26-fyeDGLQ _pAE9sTx_EeuL26-fyeDGLQ _qn4B8Tx_EeuL26-fyeDGLQ"/>
     <context xsi:type="model:HierarchicalContext" id="_ub-x0C4-EeuiX-NTW4lBww" entityName="HomeCity" contexttype="_tYCBgC4-EeuiX-NTW4lBww" including="_0RoWkS4-EeuiX-NTW4lBww" direction="BOTTOM_UP"/>
     <context xsi:type="model:SingleAttributeContext" id="_0RoWkS4-EeuiX-NTW4lBww" entityName="Home" contexttype="_tYCBgC4-EeuiX-NTW4lBww"/>
     <context xsi:type="model:SingleAttributeContext" id="_5mhQQS5BEeuiX-NTW4lBww" entityName="DeclassifiedCCD"/>
-    <context xsi:type="model:SingleAttributeContext" id="_PYMakTC4Eeu1w8e0Pya2TA"/>
-    <context xsi:type="model:HierarchicalContext" id="_P6ZvwDC4Eeu1w8e0Pya2TA" entityName="rootTravelAgency" contexttype="_S5EE0C49EeuiX-NTW4lBww" including="_Vuvs8TC4Eeu1w8e0Pya2TA _TwwWQTC4Eeu1w8e0Pya2TA"/>
-    <context xsi:type="model:SingleAttributeContext" id="_TwwWQTC4Eeu1w8e0Pya2TA" entityName="UserTravelAgency" contexttype="_S5EE0C49EeuiX-NTW4lBww"/>
-    <context xsi:type="model:SingleAttributeContext" id="_Vuvs8TC4Eeu1w8e0Pya2TA" entityName="TravelAgencyMaintenance"/>
-    <context xsi:type="model:HierarchicalContext" id="_uzxsIDDCEeu1w8e0Pya2TA" entityName="rootAirline" contexttype="_S5EE0C49EeuiX-NTW4lBww" including="_zCS7ATDCEeu1w8e0Pya2TA _w-Iq4TDCEeu1w8e0Pya2TA"/>
-    <context xsi:type="model:SingleAttributeContext" id="_w-Iq4TDCEeu1w8e0Pya2TA" entityName="AirlineUser" contexttype="_S5EE0C49EeuiX-NTW4lBww"/>
-    <context xsi:type="model:SingleAttributeContext" id="_zCS7ATDCEeu1w8e0Pya2TA" entityName="AirlineMaintenance" contexttype="_S5EE0C49EeuiX-NTW4lBww"/>
-    <context xsi:type="model:SingleAttributeContext" id="_DOgD4TDDEeu1w8e0Pya2TA" entityName="NetworkMaintenance" contexttype="_S5EE0C49EeuiX-NTW4lBww"/>
-    <context xsi:type="model:SingleAttributeContext" id="_OmM78TDDEeu1w8e0Pya2TA" entityName="MobileMaintenance" contexttype="_S5EE0C49EeuiX-NTW4lBww"/>
-    <context xsi:type="model:SingleAttributeContext" id="_zvX6wTIzEeuA2uq8qyYyoA" entityName="AdditionalAirlineContext"/>
+    <context xsi:type="model:SingleAttributeContext" id="_nX0mcTx_EeuL26-fyeDGLQ" entityName="UserA" contexttype="_S5EE0C49EeuiX-NTW4lBww"/>
+    <context xsi:type="model:SingleAttributeContext" id="_pAE9sTx_EeuL26-fyeDGLQ" entityName="UserB" contexttype="_S5EE0C49EeuiX-NTW4lBww"/>
+    <context xsi:type="model:SingleAttributeContext" id="_qn4B8Tx_EeuL26-fyeDGLQ" entityName="Guest" contexttype="_S5EE0C49EeuiX-NTW4lBww"/>
+    <context xsi:type="model:SingleAttributeContext" id="_VV3ncTyAEeuL26-fyeDGLQ" entityName="NetworkMaintenance" contexttype="_S5EE0C49EeuiX-NTW4lBww"/>
+    <context xsi:type="model:SingleAttributeContext" id="_FSDwITyBEeuL26-fyeDGLQ" entityName="NetworkAdmin" contexttype="_S5EE0C49EeuiX-NTW4lBww"/>
+    <context xsi:type="model:SingleAttributeContext" id="_OgG0ETyBEeuL26-fyeDGLQ" entityName="DBAdmin" contexttype="_S5EE0C49EeuiX-NTW4lBww"/>
+    <context xsi:type="model:SingleAttributeContext" id="_RwF-ITyBEeuL26-fyeDGLQ" entityName="CloudAdmin" contexttype="_S5EE0C49EeuiX-NTW4lBww"/>
+    <context xsi:type="model:SingleAttributeContext" id="_nByaITyBEeuL26-fyeDGLQ" entityName="PerformanceAdmin"/>
+    <context xsi:type="model:SingleAttributeContext" id="_nkRxQTyDEeuL26-fyeDGLQ" entityName="HardwareMaintenance" contexttype="_S5EE0C49EeuiX-NTW4lBww"/>
   </contextContainer>
   <typeContainer>
     <types id="_S5EE0C49EeuiX-NTW4lBww" entityName="User"/>
     <types id="_tYCBgC4-EeuiX-NTW4lBww" entityName="Location"/>
   </typeContainer>
   <pcmspecificationcontainer id="_n0tpsijqEeuoSrFTXjz8ug" entityName="PCM-Specification">
-    <policyspecification xsi:type="asembly:SystemPolicySpecification" id="_D1dQ8SpGEeu2k9cuIp092g" entityName="AccessOperationBookSelected" policy="_66f3YCphEeu2k9cuIp092g">
-      <methodspecification>
-        <connector xsi:type="composition:ProvidedDelegationConnector" href="../../default.system#_kEQiUMOBEeWst9mTsticNA"/>
-        <signature xsi:type="repository:OperationSignature" href="../../default.repository#_GmUUEMN1EeWPE-QAhbUzuQ"/>
-      </methodspecification>
+    <policyspecification xsi:type="asembly:SystemPolicySpecification" id="_0Y5soTu6EeuWiYt-o9ZDSA" entityName="CalendarA" policy="_gi2q0DxgEeuB4alMTAqN-Q">
+      <assemblycontext href="../../cloud.system#_aP3FgBaCEeabKfvw_S-vrQ"/>
     </policyspecification>
-    <policyspecification xsi:type="asembly:SystemPolicySpecification" id="_pokM8SjqEeuoSrFTXjz8ug" entityName="AccessOperationBookFlight" policy="_9EuTQCphEeu2k9cuIp092g">
-      <methodspecification>
-        <connector xsi:type="composition:AssemblyConnector" href="../../default.system#_85M4EMOAEeWst9mTsticNA"/>
-        <signature xsi:type="repository:OperationSignature" href="../../default.repository#_00dt8MNyEeWPE-QAhbUzuQ"/>
-      </methodspecification>
+    <policyspecification xsi:type="asembly:SystemPolicySpecification" id="_pF7KADxeEeuB4alMTAqN-Q" entityName="CalendarB" policy="_jZHGQDxgEeuB4alMTAqN-Q">
+      <assemblycontext href="../../cloud.system#_dzgycBaCEeabKfvw_S-vrQ"/>
     </policyspecification>
-    <policyspecification xsi:type="asembly:SystemPolicySpecification" id="_hH_oISjsEeuoSrFTXjz8ug" entityName="AccessOperationReleaseCCD" policy="__0ynICphEeu2k9cuIp092g">
-      <methodspecification>
-        <connector xsi:type="composition:ProvidedDelegationConnector" href="../../default.system#_fEC1cM5xEeWFJak7Wqvc0g"/>
-        <signature xsi:type="repository:OperationSignature" href="../../default.repository#_jergYN5bEeeel_96Qa_d5A"/>
-      </methodspecification>
+    <policyspecification xsi:type="asembly:SystemPolicySpecification" id="_1MKGkTxfEeuB4alMTAqN-Q" entityName="Database" policy="_lTBOMDxgEeuB4alMTAqN-Q">
+      <assemblycontext href="../../cloud.system#_kOA94NQtEeWaFY2No-N26g"/>
     </policyspecification>
-    <policyspecification xsi:type="asembly:SystemPolicySpecification" id="_6ffugSpCEeu2k9cuIp092g" entityName="AccessOperationSetDeclassified" policy="_BVVM0CpiEeu2k9cuIp092g">
-      <methodspecification>
-        <connector xsi:type="composition:ProvidedDelegationConnector" href="../../default.system#_fEC1cM5xEeWFJak7Wqvc0g"/>
-        <signature xsi:type="repository:OperationSignature" href="../../default.repository#_Mbgp8HZrEeaE4tGRMtTb7A"/>
-      </methodspecification>
+    <policyspecification xsi:type="asembly:SystemPolicySpecification" id="_3i0b8TxfEeuB4alMTAqN-Q" entityName="DBAdminTool" policy="_mzRgADxgEeuB4alMTAqN-Q">
+      <assemblycontext href="../../cloud.system#_EkZqgOuUEeWMdaaSirUv0Q"/>
     </policyspecification>
-    <policyspecification xsi:type="asembly:SystemPolicySpecification" id="_KWvUASpDEeu2k9cuIp092g" entityName="AccessOperationGetFlightOffers" policy="_EO1wkCpiEeu2k9cuIp092g">
-      <methodspecification>
-        <connector xsi:type="composition:ProvidedDelegationConnector" href="../../default.system#_kEQiUMOBEeWst9mTsticNA"/>
-        <signature xsi:type="repository:OperationSignature" href="../../default.repository#_602gYM5lEeWFJak7Wqvc0g"/>
-      </methodspecification>
+    <policyspecification xsi:type="asembly:SystemPolicySpecification" id="_6e6ZoTxfEeuB4alMTAqN-Q" entityName="DBLogging" policy="_qcheoDxgEeuB4alMTAqN-Q">
+      <assemblycontext href="../../cloud.system#_h00R4NQtEeWaFY2No-N26g"/>
     </policyspecification>
-    <policyspecification xsi:type="asembly:SystemPolicySpecification" id="_GlpykSpEEeu2k9cuIp092g" entityName="AccessOperationGetFlightOffersTravelplannerTravelAgency" policy="_F108gCpiEeu2k9cuIp092g">
-      <methodspecification>
-        <connector xsi:type="composition:AssemblyConnector" href="../../default.system#_nCPoUMN_EeWst9mTsticNA"/>
-        <signature xsi:type="repository:OperationSignature" href="../../default.repository#_R6uH4MNyEeWPE-QAhbUzuQ"/>
-      </methodspecification>
+    <policyspecification xsi:type="asembly:SystemPolicySpecification" id="_8u8ikTxfEeuB4alMTAqN-Q" entityName="FileManagerA" policy="_sjOscDxgEeuB4alMTAqN-Q">
+      <assemblycontext href="../../cloud.system#_YHrRABaCEeabKfvw_S-vrQ"/>
     </policyspecification>
-    <policyspecification xsi:type="asembly:SystemPolicySpecification" id="_qMDYYSpGEeu2k9cuIp092g" entityName="AccessOperationGetFlightOffersTravelAgencyAirline" policy="_HZnqgCpiEeu2k9cuIp092g">
-      <methodspecification>
-        <connector xsi:type="composition:AssemblyConnector" href="../../default.system#_jsvPoMOAEeWst9mTsticNA"/>
-        <signature xsi:type="repository:OperationSignature" href="../../default.repository#_R6uH4MNyEeWPE-QAhbUzuQ"/>
-      </methodspecification>
+    <policyspecification xsi:type="asembly:SystemPolicySpecification" id="_-fzcMTxfEeuB4alMTAqN-Q" entityName="FileManagerB" policy="_vElO4DxgEeuB4alMTAqN-Q">
+      <assemblycontext href="../../cloud.system#_bu1k8BaCEeabKfvw_S-vrQ"/>
     </policyspecification>
-    <policyspecification xsi:type="asembly:SystemPolicySpecification" id="_QEzYISpFEeu2k9cuIp092g" entityName="AccessOperationConfirmBooking" policy="_JPBF4CpiEeu2k9cuIp092g">
-      <methodspecification>
-        <connector xsi:type="composition:AssemblyConnector" href="../../default.system#_ozglIN5dEeeel_96Qa_d5A"/>
-        <signature xsi:type="repository:OperationSignature" href="../../default.repository#_JstSUNTzEee-_bZGhm8PwA"/>
-      </methodspecification>
+    <policyspecification xsi:type="asembly:SystemPolicySpecification" id="_BVP_UTxgEeuB4alMTAqN-Q" entityName="LBAdminTool" policy="_2_Jm0DxiEeuB4alMTAqN-Q">
+      <assemblycontext href="../../cloud.system#_ZxyY0OuVEeWMdaaSirUv0Q"/>
     </policyspecification>
-    <policyspecification xsi:type="asembly:SystemPolicySpecification" id="_iMBxUSpHEeu2k9cuIp092g" entityName="AccessOperationPayCommision" policy="_J1Tp0CpiEeu2k9cuIp092g">
-      <methodspecification>
-        <connector xsi:type="composition:AssemblyConnector" href="../../default.system#_i_gWMMOAEeWst9mTsticNA"/>
-        <signature xsi:type="repository:OperationSignature" href="../../default.repository#_nXaBAMN0EeWPE-QAhbUzuQ"/>
-      </methodspecification>
+    <policyspecification xsi:type="asembly:SystemPolicySpecification" id="_DSfvITxgEeuB4alMTAqN-Q" entityName="LBLogging" policy="_6AkJYDxiEeuB4alMTAqN-Q">
+      <assemblycontext href="../../cloud.system#_y1yTsOuTEeWMdaaSirUv0Q"/>
     </policyspecification>
-    <policyspecification xsi:type="asembly:SystemPolicySpecification" id="_J87KMSphEeu2k9cuIp092g" entityName="AccessOperationSetAvailableFlights" policy="_k6_WUCplEeu2k9cuIp092g">
-      <methodspecification>
-        <connector xsi:type="composition:ProvidedDelegationConnector" href="../../default.system#_yHXWIN5dEeeel_96Qa_d5A"/>
-        <signature xsi:type="repository:OperationSignature" href="../../default.repository#_ok8ZYM5wEeWFJak7Wqvc0g"/>
-      </methodspecification>
+    <policyspecification xsi:type="asembly:SystemPolicySpecification" id="_FPCUUTxgEeuB4alMTAqN-Q" entityName="LoadBalancer" policy="_814JoDxiEeuB4alMTAqN-Q">
+      <assemblycontext href="../../cloud.system#_dsQ8QOuTEeWMdaaSirUv0Q"/>
     </policyspecification>
-    <policyspecification xsi:type="asembly:SystemPolicySpecification" id="_wlmgISphEeu2k9cuIp092g" entityName="AccessOperationSetCreditCardData" policy="_LnpNUCpmEeu2k9cuIp092g">
-      <methodspecification>
-        <connector xsi:type="composition:ProvidedDelegationConnector" href="../../default.system#_y3iJYMOBEeWst9mTsticNA"/>
-        <signature xsi:type="repository:OperationSignature" href="../../default.repository#_N6idsMN3EeWPE-QAhbUzuQ"/>
-      </methodspecification>
+    <policyspecification xsi:type="asembly:SystemPolicySpecification" id="_HMzokTxgEeuB4alMTAqN-Q" entityName="NetworkFilesystem" policy="_-fHYUDxiEeuB4alMTAqN-Q">
+      <assemblycontext href="../../cloud.system#_GvZHQNQuEeWaFY2No-N26g"/>
     </policyspecification>
-    <policyspecification xsi:type="asembly:SystemPolicySpecification" id="__EEaUSjsEeuoSrFTXjz8ug" entityName="AccessComponentAirline" policy="_xCOqMCo_Eeu2k9cuIp092g">
-      <assemblycontext href="../../default.system#_HRAO0MOAEeWst9mTsticNA"/>
+    <policyspecification xsi:type="asembly:SystemPolicySpecification" id="_JYW6ITxgEeuB4alMTAqN-Q" entityName="NWFSAdminTool" policy="_jKy2EDxjEeuB4alMTAqN-Q">
+      <assemblycontext href="../../cloud.system#_y6exAOuUEeWMdaaSirUv0Q"/>
     </policyspecification>
-    <policyspecification xsi:type="asembly:SystemPolicySpecification" id="_vbdtwSjsEeuoSrFTXjz8ug" entityName="AccessComponentTravelplanner" policy="_pTYIICo_Eeu2k9cuIp092g">
-      <assemblycontext href="../../default.system#_2pBlYMN-EeWst9mTsticNA"/>
+    <policyspecification xsi:type="asembly:SystemPolicySpecification" id="_LeW9UTxgEeuB4alMTAqN-Q" entityName="NWFSLogging" policy="_mbCe0DxjEeuB4alMTAqN-Q">
+      <assemblycontext href="../../cloud.system#_EkiZQNQuEeWaFY2No-N26g"/>
     </policyspecification>
-    <policyspecification xsi:type="asembly:SystemPolicySpecification" id="_4WAm4SjsEeuoSrFTXjz8ug" entityName="AccessComponentTravelAgency" policy="_sIMZICo_Eeu2k9cuIp092g">
-      <assemblycontext href="../../default.system#_0WeT8MN-EeWst9mTsticNA"/>
+    <policyspecification xsi:type="asembly:SystemPolicySpecification" id="_PhQyETxgEeuB4alMTAqN-Q" entityName="OCAADminTool" policy="_pDd5oDxjEeuB4alMTAqN-Q">
+      <assemblycontext href="../../cloud.system#_1PYy4OuUEeWMdaaSirUv0Q"/>
     </policyspecification>
-    <policyspecification xsi:type="asembly:SystemPolicySpecification" id="_8gQZwSjsEeuoSrFTXjz8ug" entityName="AccessComponentCreditCardCenter" policy="_uXPDkCo_Eeu2k9cuIp092g">
-      <assemblycontext href="../../default.system#_XOyEsMOBEeWst9mTsticNA"/>
+    <policyspecification xsi:type="asembly:SystemPolicySpecification" id="_R7KBoTxgEeuB4alMTAqN-Q" entityName="OCBLogging" policy="_rahQkDxjEeuB4alMTAqN-Q">
+      <assemblycontext href="../../cloud.system#_ASwPIOuUEeWMdaaSirUv0Q"/>
     </policyspecification>
-    <policyspecification xsi:type="asembly:SystemPolicySpecification" id="_MqMRwSjtEeuoSrFTXjz8ug" entityName="AccessNetwork4G" policy="_y3oFkCo_Eeu2k9cuIp092g">
-      <linkingresource href="../../default.resourceenvironment#_niT6YMN9EeWPE-QAhbUzuQ"/>
+    <policyspecification xsi:type="asembly:SystemPolicySpecification" id="_UU5gMTxgEeuB4alMTAqN-Q" entityName="OwnCloudA" policy="_wc9PsDxjEeuB4alMTAqN-Q">
+      <assemblycontext href="../../cloud.system#_lmyX8NSLEeWaFY2No-N26g"/>
     </policyspecification>
-    <policyspecification xsi:type="asembly:SystemPolicySpecification" id="_Zx2EgSjtEeuoSrFTXjz8ug" entityName="AccessNetworkOpenWifi" policy="_-XYtcCo_Eeu2k9cuIp092g">
-      <linkingresource href="../../default.resourceenvironment#_1XdFQMN9EeWPE-QAhbUzuQ"/>
+    <policyspecification xsi:type="asembly:SystemPolicySpecification" id="_Xt5cUTxgEeuB4alMTAqN-Q" entityName="OwnCloudB" policy="_z_0ScDxjEeuB4alMTAqN-Q">
+      <assemblycontext href="../../cloud.system#_3vlUMOuTEeWMdaaSirUv0Q"/>
     </policyspecification>
-    <policyspecification xsi:type="asembly:SystemPolicySpecification" id="_0BQ-wSjtEeuoSrFTXjz8ug" entityName="AccessNetworkInternet" policy="_BEhpICpAEeu2k9cuIp092g">
-      <linkingresource href="../../default.resourceenvironment#_67lcMMN9EeWPE-QAhbUzuQ"/>
+    <policyspecification xsi:type="asembly:SystemPolicySpecification" id="_Z1YtQTxgEeuB4alMTAqN-Q" entityName="PublicCalendar" policy="_1-C5sDxjEeuB4alMTAqN-Q">
+      <assemblycontext href="../../cloud.system#_3UQEEG9eEeam26epJlCOmw"/>
     </policyspecification>
-    <policyspecification xsi:type="asembly:SystemPolicySpecification" id="_Yt_TcSjwEeuoSrFTXjz8ug" entityName="AccessHardwareAirlineServer" policy="_EIQf4CpAEeu2k9cuIp092g">
-      <resourcecontainer href="../../default.resourceenvironment#_fuWBEMN4EeWPE-QAhbUzuQ"/>
+    <policyspecification xsi:type="asembly:SystemPolicySpecification" id="_c_13ETxgEeuB4alMTAqN-Q" entityName="PublicFileManager" policy="_4s66wDxjEeuB4alMTAqN-Q">
+      <assemblycontext href="../../cloud.system#_2IfbkG9eEeam26epJlCOmw"/>
     </policyspecification>
-    <policyspecification xsi:type="asembly:SystemPolicySpecification" id="_cH4AYSjwEeuoSrFTXjz8ug" entityName="AccessHardwareAgencyServer" policy="_GXHkICpAEeu2k9cuIp092g">
-      <resourcecontainer href="../../default.resourceenvironment#_HM_VsMN5EeWPE-QAhbUzuQ"/>
+    <policyspecification xsi:type="asembly:SystemPolicySpecification" id="_vuB3sTxkEeuB4alMTAqN-Q" entityName="IntranetInner">
+      <linkingresource href="../../cloud.resourceenvironment#_tfftINQpEeWaFY2No-N26g"/>
     </policyspecification>
-    <policyspecification xsi:type="asembly:SystemPolicySpecification" id="_kRhX0So_Eeu2k9cuIp092g" entityName="AccessHardwarePhone" policy="_If9f8CpAEeu2k9cuIp092g _6jsWQDDKEeu1w8e0Pya2TA">
-      <resourcecontainer href="../../default.resourceenvironment#_Lq-ZYMN4EeWPE-QAhbUzuQ"/>
+    <policyspecification xsi:type="asembly:SystemPolicySpecification" id="_eED64TxlEeuB4alMTAqN-Q" entityName="IntranetOuter" policy="_EcspsDxmEeuB4alMTAqN-Q">
+      <linkingresource href="../../cloud.resourceenvironment#_AJGFgNQqEeWaFY2No-N26g"/>
     </policyspecification>
-    <contextspecification id="_FBD9MijtEeuoSrFTXjz8ug" entityName="UsageGetFlights" contextset="_hCabkC4xEeu9t6WbBqVIgA">
-      <entrylevelsystemcall href="../../default.usagemodel#_zqfVcHZsEeaE4tGRMtTb7A"/>
-    </contextspecification>
-    <contextspecification id="_qUGpYi4xEeu9t6WbBqVIgA" entityName="UsageGetCCD" contextset="_px7JYC4xEeu9t6WbBqVIgA">
-      <entrylevelsystemcall href="../../default.usagemodel#_WtNmwN5gEeeel_96Qa_d5A"/>
-    </contextspecification>
-    <contextspecification id="_ucCSoi4yEeu9t6WbBqVIgA" entityName="UsageDeclassifyCCD" contextset="_-7JJYC4yEeu9t6WbBqVIgA">
-      <entrylevelsystemcall href="../../default.usagemodel#_uA4ooHZsEeaE4tGRMtTb7A"/>
-    </contextspecification>
-    <contextspecification id="_y8Hyoi4yEeu9t6WbBqVIgA" entityName="UsageBookSelected" contextset="_BJM8YC4zEeu9t6WbBqVIgA">
-      <entrylevelsystemcall href="../../default.usagemodel#_ClGTkHZtEeaE4tGRMtTb7A"/>
-    </contextspecification>
-    <contextspecification id="_YpbPAi4_EeuiX-NTW4lBww" entityName="UsageAdministrationCreditCardData" contextset="_jwHPkC4_EeuiX-NTW4lBww">
-      <usagescenario href="../../default.usagemodel#_J_S84C4_EeuiX-NTW4lBww"/>
-    </contextspecification>
-    <attributeprovider id="_xk748zIyEeuA2uq8qyYyoA" contextset="_3hlBEDIzEeuA2uq8qyYyoA">
-      <assemblycontext href="../../default.system#_HRAO0MOAEeWst9mTsticNA"/>
+    <policyspecification xsi:type="asembly:SystemPolicySpecification" id="_g5UQwTxlEeuB4alMTAqN-Q" entityName="Internet" policy="_GSsiADxmEeuB4alMTAqN-Q">
+      <linkingresource href="../../cloud.resourceenvironment#_PhSXgNQqEeWaFY2No-N26g"/>
+    </policyspecification>
+    <policyspecification xsi:type="asembly:SystemPolicySpecification" id="_qn09cTxlEeuB4alMTAqN-Q" entityName="EndUserA" policy="_L8ajkDxmEeuB4alMTAqN-Q">
+      <resourcecontainer href="../../cloud.resourceenvironment#_GuivgNQqEeWaFY2No-N26g"/>
+    </policyspecification>
+    <policyspecification xsi:type="asembly:SystemPolicySpecification" id="_t5e7cTxlEeuB4alMTAqN-Q" entityName="EndUserB" policy="_Pk9-oDxmEeuB4alMTAqN-Q">
+      <resourcecontainer href="../../cloud.resourceenvironment#_IvtWANQqEeWaFY2No-N26g"/>
+    </policyspecification>
+    <policyspecification xsi:type="asembly:SystemPolicySpecification" id="_vFNHsTxlEeuB4alMTAqN-Q" entityName="Guest" policy="_RetugDxmEeuB4alMTAqN-Q">
+      <resourcecontainer href="../../cloud.resourceenvironment#_KNx2gNQqEeWaFY2No-N26g"/>
+    </policyspecification>
+    <policyspecification xsi:type="asembly:SystemPolicySpecification" id="_yV0j4TxlEeuB4alMTAqN-Q" entityName="VMA" policy="_TPwOUDxmEeuB4alMTAqN-Q">
+      <resourcecontainer href="../../cloud.resourceenvironment#_m0JPcNQpEeWaFY2No-N26g"/>
+    </policyspecification>
+    <policyspecification xsi:type="asembly:SystemPolicySpecification" id="_1gLAATxlEeuB4alMTAqN-Q" entityName="VMB" policy="_WKycEDxmEeuB4alMTAqN-Q">
+      <resourcecontainer href="../../cloud.resourceenvironment#_orWBoNQpEeWaFY2No-N26g"/>
+    </policyspecification>
+    <policyspecification xsi:type="asembly:SystemPolicySpecification" id="_4iceMTxlEeuB4alMTAqN-Q" entityName="VMC" policy="_1L4VkDxmEeuB4alMTAqN-Q">
+      <resourcecontainer href="../../cloud.resourceenvironment#_qT4FsNQpEeWaFY2No-N26g"/>
+    </policyspecification>
+    <policyspecification xsi:type="asembly:SystemPolicySpecification" id="_6Z7kQTxlEeuB4alMTAqN-Q" entityName="VMD" policy="_3DwdMDxmEeuB4alMTAqN-Q">
+      <resourcecontainer href="../../cloud.resourceenvironment#_rsXioNQpEeWaFY2No-N26g"/>
+    </policyspecification>
+    <policyspecification xsi:type="asembly:SystemPolicySpecification" id="_8C-lsTxlEeuB4alMTAqN-Q" entityName="VME" policy="_6XMj4DxmEeuB4alMTAqN-Q">
+      <resourcecontainer href="../../cloud.resourceenvironment#_-GjmANQpEeWaFY2No-N26g"/>
+    </policyspecification>
+    <attributeprovider id="_WeXVAzyKEeuQcPGUpKPbQw" contextset="_gi2q0DxgEeuB4alMTAqN-Q">
+      <assemblycontext href="../../cloud.system#_aP3FgBaCEeabKfvw_S-vrQ"/>
     </attributeprovider>
   </pcmspecificationcontainer>
 </context:ConfidentialAccessSpecification>

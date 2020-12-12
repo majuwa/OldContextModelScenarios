@@ -6,14 +6,11 @@
     </attackcomponent>
   </seedModifications>
   <changePropagationSteps xsi:type="KAMP4attackModificationmarks:CredentialChange">
-    <contextchange>
-      <affectedElement xsi:type="model:SingleAttributeContext" href="test_model.context#_0RoWkS4-EeuiX-NTW4lBww"/>
-    </contextchange>
     <contextchange toolderived="true">
-      <affectedElement xsi:type="model:HierarchicalContext" href="test_model.context#_ub-x0C4-EeuiX-NTW4lBww"/>
+      <affectedElement xsi:type="model:SingleAttributeContext" href="test_model.context#_VV3ncTyAEeuL26-fyeDGLQ"/>
     </contextchange>
     <compromisedlinkingresource>
-      <affectedElement xsi:type="resourceenvironment:LinkingResource" href="../../default.resourceenvironment#_niT6YMN9EeWPE-QAhbUzuQ"/>
+      <affectedElement xsi:type="resourceenvironment:LinkingResource" href="../../cloud.resourceenvironment#_PhSXgNQqEeWaFY2No-N26g"/>
     </compromisedlinkingresource>
   </changePropagationSteps>
 </KAMP4attackModificationmarks:KAMP4attackModificationRepository>

@@ -1,34 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:resourceenvironment="http://palladiosimulator.org/PalladioComponentModel/ResourceEnvironment/5.2">
-  <resourceenvironment:ResourceEnvironment>
-    <linkingResources__ResourceEnvironment id="_tfftINQpEeWaFY2No-N26g" entityName="Intranet inner" connectedResourceContainers_LinkingResource="_orWBoNQpEeWaFY2No-N26g _m0JPcNQpEeWaFY2No-N26g _rsXioNQpEeWaFY2No-N26g _qT4FsNQpEeWaFY2No-N26g">
-      <communicationLinkResourceSpecifications_LinkingResource id="_tfu9sNQpEeWaFY2No-N26g">
-        <communicationLinkResourceType_CommunicationLinkResourceSpecification href="pathmap://PCM_MODELS/Palladio.resourcetype#_o3sScH2AEdyH8uerKnHYug"/>
-        <latency_CommunicationLinkResourceSpecification specification="0"/>
-        <throughput_CommunicationLinkResourceSpecification specification="1"/>
-      </communicationLinkResourceSpecifications_LinkingResource>
-    </linkingResources__ResourceEnvironment>
-    <linkingResources__ResourceEnvironment id="_AJGFgNQqEeWaFY2No-N26g" entityName="Intranet outer" connectedResourceContainers_LinkingResource="_rsXioNQpEeWaFY2No-N26g _qT4FsNQpEeWaFY2No-N26g _-GjmANQpEeWaFY2No-N26g">
-      <communicationLinkResourceSpecifications_LinkingResource id="_AJGskNQqEeWaFY2No-N26g">
-        <communicationLinkResourceType_CommunicationLinkResourceSpecification href="pathmap://PCM_MODELS/Palladio.resourcetype#_o3sScH2AEdyH8uerKnHYug"/>
-        <latency_CommunicationLinkResourceSpecification specification="0"/>
-        <throughput_CommunicationLinkResourceSpecification specification="1"/>
-      </communicationLinkResourceSpecifications_LinkingResource>
-    </linkingResources__ResourceEnvironment>
-    <linkingResources__ResourceEnvironment id="_PhSXgNQqEeWaFY2No-N26g" entityName="Internet" connectedResourceContainers_LinkingResource="_GuivgNQqEeWaFY2No-N26g _IvtWANQqEeWaFY2No-N26g _KNx2gNQqEeWaFY2No-N26g _-GjmANQpEeWaFY2No-N26g">
-      <communicationLinkResourceSpecifications_LinkingResource id="_PhUzwNQqEeWaFY2No-N26g">
-        <communicationLinkResourceType_CommunicationLinkResourceSpecification href="pathmap://PCM_MODELS/Palladio.resourcetype#_o3sScH2AEdyH8uerKnHYug"/>
-        <latency_CommunicationLinkResourceSpecification specification="0"/>
-        <throughput_CommunicationLinkResourceSpecification specification="1"/>
-      </communicationLinkResourceSpecifications_LinkingResource>
-    </linkingResources__ResourceEnvironment>
-    <resourceContainer_ResourceEnvironment id="_m0JPcNQpEeWaFY2No-N26g" entityName="VM A"/>
-    <resourceContainer_ResourceEnvironment id="_orWBoNQpEeWaFY2No-N26g" entityName="VM B"/>
-    <resourceContainer_ResourceEnvironment id="_qT4FsNQpEeWaFY2No-N26g" entityName="VM C"/>
-    <resourceContainer_ResourceEnvironment id="_rsXioNQpEeWaFY2No-N26g" entityName="VM D"/>
-    <resourceContainer_ResourceEnvironment id="_-GjmANQpEeWaFY2No-N26g" entityName="VM E"/>
-    <resourceContainer_ResourceEnvironment id="_GuivgNQqEeWaFY2No-N26g" entityName="End User Machine A"/>
-    <resourceContainer_ResourceEnvironment id="_IvtWANQqEeWaFY2No-N26g" entityName="End User Machine B"/>
-    <resourceContainer_ResourceEnvironment id="_KNx2gNQqEeWaFY2No-N26g" entityName="End User Machine Guest"/>
-  </resourceenvironment:ResourceEnvironment>
-</xmi:XMI>
+<resourceenvironment:ResourceEnvironment xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:resourceenvironment="http://palladiosimulator.org/PalladioComponentModel/ResourceEnvironment/5.2">
+  <linkingResources__ResourceEnvironment id="_tfftINQpEeWaFY2No-N26g" entityName="Intranet inner" connectedResourceContainers_LinkingResource="_orWBoNQpEeWaFY2No-N26g _m0JPcNQpEeWaFY2No-N26g _rsXioNQpEeWaFY2No-N26g _qT4FsNQpEeWaFY2No-N26g">
+    <communicationLinkResourceSpecifications_LinkingResource id="_tfu9sNQpEeWaFY2No-N26g">
+      <communicationLinkResourceType_CommunicationLinkResourceSpecification href="pathmap://PCM_MODELS/Palladio.resourcetype#_o3sScH2AEdyH8uerKnHYug"/>
+      <latency_CommunicationLinkResourceSpecification specification="0"/>
+      <throughput_CommunicationLinkResourceSpecification specification="1"/>
+    </communicationLinkResourceSpecifications_LinkingResource>
+  </linkingResources__ResourceEnvironment>
+  <linkingResources__ResourceEnvironment id="_AJGFgNQqEeWaFY2No-N26g" entityName="Intranet outer" connectedResourceContainers_LinkingResource="_rsXioNQpEeWaFY2No-N26g _qT4FsNQpEeWaFY2No-N26g _-GjmANQpEeWaFY2No-N26g">
+    <communicationLinkResourceSpecifications_LinkingResource id="_AJGskNQqEeWaFY2No-N26g">
+      <communicationLinkResourceType_CommunicationLinkResourceSpecification href="pathmap://PCM_MODELS/Palladio.resourcetype#_o3sScH2AEdyH8uerKnHYug"/>
+      <latency_CommunicationLinkResourceSpecification specification="0"/>
+      <throughput_CommunicationLinkResourceSpecification specification="1"/>
+    </communicationLinkResourceSpecifications_LinkingResource>
+  </linkingResources__ResourceEnvironment>
+  <linkingResources__ResourceEnvironment id="_PhSXgNQqEeWaFY2No-N26g" entityName="Internet" connectedResourceContainers_LinkingResource="_GuivgNQqEeWaFY2No-N26g _IvtWANQqEeWaFY2No-N26g _KNx2gNQqEeWaFY2No-N26g _-GjmANQpEeWaFY2No-N26g">
+    <communicationLinkResourceSpecifications_LinkingResource id="_PhUzwNQqEeWaFY2No-N26g">
+      <communicationLinkResourceType_CommunicationLinkResourceSpecification href="pathmap://PCM_MODELS/Palladio.resourcetype#_o3sScH2AEdyH8uerKnHYug"/>
+      <latency_CommunicationLinkResourceSpecification specification="0"/>
+      <throughput_CommunicationLinkResourceSpecification specification="1"/>
+    </communicationLinkResourceSpecifications_LinkingResource>
+  </linkingResources__ResourceEnvironment>
+  <resourceContainer_ResourceEnvironment id="_m0JPcNQpEeWaFY2No-N26g" entityName="VM A"/>
+  <resourceContainer_ResourceEnvironment id="_orWBoNQpEeWaFY2No-N26g" entityName="VM B"/>
+  <resourceContainer_ResourceEnvironment id="_qT4FsNQpEeWaFY2No-N26g" entityName="VM C"/>
+  <resourceContainer_ResourceEnvironment id="_rsXioNQpEeWaFY2No-N26g" entityName="VM D"/>
+  <resourceContainer_ResourceEnvironment id="_-GjmANQpEeWaFY2No-N26g" entityName="VM E"/>
+  <resourceContainer_ResourceEnvironment id="_GuivgNQqEeWaFY2No-N26g" entityName="End User Machine A"/>
+  <resourceContainer_ResourceEnvironment id="_IvtWANQqEeWaFY2No-N26g" entityName="End User Machine B"/>
+  <resourceContainer_ResourceEnvironment id="_KNx2gNQqEeWaFY2No-N26g" entityName="End User Machine Guest"/>
+</resourceenvironment:ResourceEnvironment>
