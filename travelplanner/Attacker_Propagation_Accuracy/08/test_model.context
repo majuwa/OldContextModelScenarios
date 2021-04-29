@@ -17,11 +17,11 @@
     <policies id="_uXPDkCo_Eeu2k9cuIp092g" entityName="AccessComponentCreditCardCenter" contexts="_uV6F0SjqEeuoSrFTXjz8ug"/>
     <policies id="_xCOqMCo_Eeu2k9cuIp092g" entityName="AccessComponentAirline" contexts="_w-Iq4TDCEeu1w8e0Pya2TA"/>
     <policies id="_y3oFkCo_Eeu2k9cuIp092g" entityName="AccessNetwork4G" contexts="_OmM78TDDEeu1w8e0Pya2TA"/>
-    <policies id="_-XYtcCo_Eeu2k9cuIp092g" entityName="AccessNetworkOpenWifi" contexts="_uV6F0SjqEeuoSrFTXjz8ug"/>
+    <policies id="_-XYtcCo_Eeu2k9cuIp092g" entityName="AccessNetworkOpenWifi" contexts="_DOgD4TDDEeu1w8e0Pya2TA"/>
     <policies id="_BEhpICpAEeu2k9cuIp092g" entityName="AccessNetworkInternet" contexts="_DOgD4TDDEeu1w8e0Pya2TA"/>
     <policies id="_EIQf4CpAEeu2k9cuIp092g" entityName="AccessHardwareAirlineServer" contexts="_zCS7ATDCEeu1w8e0Pya2TA"/>
     <policies id="_GXHkICpAEeu2k9cuIp092g" entityName="AccessHardwareAgencyServer" contexts="_Vuvs8TC4Eeu1w8e0Pya2TA"/>
-    <policies id="_If9f8CpAEeu2k9cuIp092g" entityName="AccessHardwarePhone" contexts="_uV6F0SjqEeuoSrFTXjz8ug _OmM78TDDEeu1w8e0Pya2TA"/>
+    <policies id="_If9f8CpAEeu2k9cuIp092g" entityName="AccessHardwarePhone" contexts="_uV6F0SjqEeuoSrFTXjz8ug"/>
     <policies id="_hCabkC4xEeu9t6WbBqVIgA" entityName="UsageGetFlight" contexts="_uV6F0SjqEeuoSrFTXjz8ug"/>
     <policies id="_px7JYC4xEeu9t6WbBqVIgA" entityName="UsageReleaseCCD" contexts="_uV6F0SjqEeuoSrFTXjz8ug _0RoWkS4-EeuiX-NTW4lBww"/>
     <policies id="_-7JJYC4yEeu9t6WbBqVIgA" entityName="UsageDeclassifyCCD" contexts="_uV6F0SjqEeuoSrFTXjz8ug _0RoWkS4-EeuiX-NTW4lBww"/>
@@ -146,20 +146,8 @@
     <policyspecification xsi:type="asembly:SystemPolicySpecification" id="_kRhX0So_Eeu2k9cuIp092g" entityName="AccessHardwarePhone" policy="_If9f8CpAEeu2k9cuIp092g _6jsWQDDKEeu1w8e0Pya2TA">
       <resourcecontainer href="../../default.resourceenvironment#_Lq-ZYMN4EeWPE-QAhbUzuQ"/>
     </policyspecification>
-    <contextspecification id="_FBD9MijtEeuoSrFTXjz8ug" entityName="UsageGetFlights" contextset="_hCabkC4xEeu9t6WbBqVIgA">
-      <entrylevelsystemcall href="../../default.usagemodel#_zqfVcHZsEeaE4tGRMtTb7A"/>
-    </contextspecification>
-    <contextspecification id="_qUGpYi4xEeu9t6WbBqVIgA" entityName="UsageGetCCD" contextset="_px7JYC4xEeu9t6WbBqVIgA">
-      <entrylevelsystemcall href="../../default.usagemodel#_WtNmwN5gEeeel_96Qa_d5A"/>
-    </contextspecification>
-    <contextspecification id="_ucCSoi4yEeu9t6WbBqVIgA" entityName="UsageDeclassifyCCD" contextset="_-7JJYC4yEeu9t6WbBqVIgA">
-      <entrylevelsystemcall href="../../default.usagemodel#_uA4ooHZsEeaE4tGRMtTb7A"/>
-    </contextspecification>
-    <contextspecification id="_y8Hyoi4yEeu9t6WbBqVIgA" entityName="UsageBookSelected" contextset="_BJM8YC4zEeu9t6WbBqVIgA">
-      <entrylevelsystemcall href="../../default.usagemodel#_ClGTkHZtEeaE4tGRMtTb7A"/>
-    </contextspecification>
-    <contextspecification id="_YpbPAi4_EeuiX-NTW4lBww" entityName="UsageAdministrationCreditCardData" contextset="_jwHPkC4_EeuiX-NTW4lBww">
-      <usagescenario href="../../default.usagemodel#_J_S84C4_EeuiX-NTW4lBww"/>
-    </contextspecification>
+    <attributeprovider id="_vtZxs6g1Eeu41LgoiPSZgg" entityName="Provide Customer" contextset="_pTYIICo_Eeu2k9cuIp092g">
+      <resourcecontainer href="../../default.resourceenvironment#_Lq-ZYMN4EeWPE-QAhbUzuQ"/>
+    </attributeprovider>
   </pcmspecificationcontainer>
 </context:ConfidentialAccessSpecification>
