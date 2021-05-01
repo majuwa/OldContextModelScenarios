@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<attacker:AttackerSpecification xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:attack="http://www.palladiosimulator.org/pcm/confidentiality/attacker/0.1/" xmlns:attacker="http://www.palladiosimulator.org/pcm/confidentiality/attack/0.1/" xmlns:model="http://www.palladiosimulator.org/pcm/confidentiality/context/model/0.1/">
+  <attackers>
+    <attacker id="_e5aL8Kd4EeuyobD7xRWqAQ" entityName="Test">
+      <compromisedComponents href="../../../cloud.system#_kOA94NQtEeWaFY2No-N26g"/>
+      <credentials xsi:type="model:SingleAttributeContext" href="test_model.context#_OgG0ETyBEeuL26-fyeDGLQ"/>
+    </attacker>
+  </attackers>
+  <attacks>
+    <attack xsi:type="attack:CWEAttack" id="_8JwOoKd6EeuyobD7xRWqAQ"/>
+  </attacks>
+  <vulnerabilites>
+    <vulnerability xsi:type="attack:CVEVulnerability" cweID="//@categoryspecification/@categories.2" entityName="Desktop" attackVector="Network" confidentialityImpact="High" takeOver="true" cveID="//@categoryspecification/@categories.0"/>
+  </vulnerabilites>
+  <categoryspecification>
+    <categories xsi:type="attack:CVEID" entityName="Nextcloud Desktop" cveID="2021-22879"/>
+    <categories xsi:type="attack:CWEID" entityName="Improper Control of Resource Identifiers" cweID="99" children="//@categoryspecification/@categories.2"/>
+    <categories xsi:type="attack:CWEID" entityName="Improper Neutralization of Special Elements in Output Used by a Downstream Component" cweID="74" parents="//@categoryspecification/@categories.1"/>
+  </categoryspecification>
+  <systemintegration/>
+</attacker:AttackerSpecification>
