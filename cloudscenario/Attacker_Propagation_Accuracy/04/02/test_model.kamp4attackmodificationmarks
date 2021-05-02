@@ -7,12 +7,12 @@
   </seedModifications>
   <changePropagationSteps xsi:type="KAMP4attackModificationmarks:CredentialChange">
     <compromisedassembly>
-      <affectedElement xsi:type="composition:AssemblyContext" href="../../../cloud.system#_lmyX8NSLEeWaFY2No-N26g"/>
+      <affectedElement xsi:type="composition:AssemblyContext" href="../../../cloud.system#_dsQ8QOuTEeWMdaaSirUv0Q"/>
     </compromisedassembly>
     <compromisedassembly toolderived="true">
-      <affectedElement xsi:type="composition:AssemblyContext" href="../../../cloud.system#_kOA94NQtEeWaFY2No-N26g"/>
-      <causingElements xsi:type="composition:AssemblyContext" href="../../../cloud.system#_lmyX8NSLEeWaFY2No-N26g"/>
-      <causingElements xsi:type="attack:CVEVulnerability" href="test_model.attacker#//@vulnerabilites/@vulnerability.4"/>
+      <affectedElement xsi:type="composition:AssemblyContext" href="../../../cloud.system#_YHrRABaCEeabKfvw_S-vrQ"/>
+      <causingElements xsi:type="composition:AssemblyContext" href="../../../cloud.system#_dsQ8QOuTEeWMdaaSirUv0Q"/>
+      <causingElements xsi:type="attack:CVEVulnerability" href="test_model.attacker#//@vulnerabilites/@vulnerability.0"/>
     </compromisedassembly>
   </changePropagationSteps>
 </KAMP4attackModificationmarks:KAMP4attackModificationRepository>

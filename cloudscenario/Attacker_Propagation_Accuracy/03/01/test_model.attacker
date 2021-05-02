@@ -7,15 +7,43 @@
     </attacker>
   </attackers>
   <attacks>
-    <attack xsi:type="attack:CWEAttack" id="_8JwOoKd6EeuyobD7xRWqAQ"/>
+    <attack xsi:type="attack:CWEAttack" id="_rpe98KsiEeu0I5EfY090pg" entityName="attack DesktopClient" category="//@categoryspecification/@categories.2"/>
   </attacks>
   <vulnerabilites>
     <vulnerability xsi:type="attack:CVEVulnerability" cweID="//@categoryspecification/@categories.2" entityName="Desktop" attackVector="Network" confidentialityImpact="High" takeOver="true" cveID="//@categoryspecification/@categories.0"/>
+    <vulnerability xsi:type="attack:CVEVulnerability" cweID="//@categoryspecification/@categories.3" entityName="Vulnerability Server" attackVector="Local" privileges="Low" confidentialityImpact="High" takeOver="true" cveID="//@categoryspecification/@categories.4"/>
+    <vulnerability xsi:type="attack:CVEVulnerability" cweID="//@categoryspecification/@categories.6 //@categoryspecification/@categories.7" entityName="Attack-Nextcloud-Component-Password" attackVector="Local" confidentialityImpact="High" cveID="//@categoryspecification/@categories.5">
+      <gainedPrivilege href="test_model.context#_-fHYUDxiEeuB4alMTAqN-Q"/>
+    </vulnerability>
+    <vulnerability xsi:type="attack:CVEVulnerability" cweID="//@categoryspecification/@categories.9" entityName="AccessMailServer" attackVector="Network" confidentialityImpact="High" cveID="//@categoryspecification/@categories.8">
+      <gainedPrivilege href="test_model.context#_L8ajkDxmEeuB4alMTAqN-Q"/>
+    </vulnerability>
+    <vulnerability xsi:type="attack:CVEVulnerability" cweID="//@categoryspecification/@categories.11" entityName="AttackSef" attackVector="Network" confidentialityImpact="High" takeOver="true" cveID="//@categoryspecification/@categories.10"/>
   </vulnerabilites>
   <categoryspecification>
     <categories xsi:type="attack:CVEID" entityName="Nextcloud Desktop" cveID="2021-22879"/>
     <categories xsi:type="attack:CWEID" entityName="Improper Control of Resource Identifiers" cweID="99" children="//@categoryspecification/@categories.2"/>
     <categories xsi:type="attack:CWEID" entityName="Improper Neutralization of Special Elements in Output Used by a Downstream Component" cweID="74" parents="//@categoryspecification/@categories.1"/>
+    <categories xsi:type="attack:CWEID" entityName="Incorrect Privilege Assignment" cweID="266"/>
+    <categories xsi:type="attack:CVEID" entityName="Attack Server" cveID="2019-3843"/>
+    <categories xsi:type="attack:CVEID" entityName="Attack-Nextcloud-Password" cveID="2020-8296"/>
+    <categories xsi:type="attack:CWEID" entityName="Weak Password Requirements" cweID="521"/>
+    <categories xsi:type="attack:CWEID" entityName="Storing Passwords in a Recoverable Format" cweID="257"/>
+    <categories xsi:type="attack:CVEID" entityName="Vulnerability-Server-Email" cveID="2021-28374"/>
+    <categories xsi:type="attack:CWEID" entityName="Cleartext Storage of Sensitive Information" cweID="312"/>
+    <categories xsi:type="attack:CVEID" entityName="Syn" cveID="Syn"/>
+    <categories xsi:type="attack:CWEID" entityName="Syn" cweID="9999"/>
   </categoryspecification>
-  <systemintegration/>
+  <systemintegration>
+    <vulnerabilities id="_zZlKQKsvEeu3hoHs-SW4Zg" vulnerability="//@vulnerabilites/@vulnerability.0">
+      <assemblycontext href="../../../cloud.system#_YHrRABaCEeabKfvw_S-vrQ"/>
+    </vulnerabilities>
+    <vulnerabilities id="_8TejIKsvEeu3hoHs-SW4Zg" vulnerability="//@vulnerabilites/@vulnerability.2">
+      <assemblycontext href="../../../cloud.system#_lmyX8NSLEeWaFY2No-N26g"/>
+    </vulnerabilities>
+    <vulnerabilities id="_-RWlEKsvEeu3hoHs-SW4Zg" vulnerability="//@vulnerabilites/@vulnerability.1">
+      <resourcecontainer href="../../../cloud.resourceenvironment#_m0JPcNQpEeWaFY2No-N26g"/>
+    </vulnerabilities>
+    <vulnerabilities id="_kcUZYKsyEeu3hoHs-SW4Zg"/>
+  </systemintegration>
 </attacker:AttackerSpecification>

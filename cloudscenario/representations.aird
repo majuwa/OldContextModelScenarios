@@ -10,30 +10,12 @@
     <semanticResources>Attacker_Propagation_Accuracy/01/test_model_01_empty_attacker.attacker</semanticResources>
     <semanticResources>Attacker_Propagation_Accuracy/01/test_model_01_empty_attacker.context</semanticResources>
     <semanticResources>Attacker_Propagation_Accuracy/01/test_model_01_empty_attacker.kamp4attackmodificationmarks</semanticResources>
-    <semanticResources>Attacker_Propagation_Accuracy/05/test_model.kamp4attackmodificationmarks</semanticResources>
-    <semanticResources>Attacker_Propagation_Accuracy/06/test_model.kamp4attackmodificationmarks</semanticResources>
-    <semanticResources>Attacker_Propagation_Accuracy/07/test_model.kamp4attackmodificationmarks</semanticResources>
-    <semanticResources>Attacker_Propagation_Accuracy/08/test_model.kamp4attackmodificationmarks</semanticResources>
-    <semanticResources>Attacker_Propagation_Accuracy/09/test_model.kamp4attackmodificationmarks</semanticResources>
-    <semanticResources>Attacker_Propagation_Accuracy/10/test_model.kamp4attackmodificationmarks</semanticResources>
     <semanticResources>cloud.system</semanticResources>
     <semanticResources>pathmap://PCM_MODELS/FailureTypes.repository</semanticResources>
     <semanticResources>platform:/plugin/org.palladiosimulator.editors.sirius.resourceenvironment/description/resourceenvironment.odesign</semanticResources>
     <semanticResources>environment:/viewpoint</semanticResources>
     <semanticResources>default.system</semanticResources>
     <semanticResources>default.resourceenvironment</semanticResources>
-    <semanticResources>Attacker_Propagation_Accuracy/05/test_model.attacker</semanticResources>
-    <semanticResources>Attacker_Propagation_Accuracy/05/test_model.context</semanticResources>
-    <semanticResources>Attacker_Propagation_Accuracy/06/test_model.context</semanticResources>
-    <semanticResources>Attacker_Propagation_Accuracy/06/test_model.attacker</semanticResources>
-    <semanticResources>Attacker_Propagation_Accuracy/07/test_model.attacker</semanticResources>
-    <semanticResources>Attacker_Propagation_Accuracy/07/test_model.context</semanticResources>
-    <semanticResources>Attacker_Propagation_Accuracy/08/test_model.attacker</semanticResources>
-    <semanticResources>Attacker_Propagation_Accuracy/08/test_model.context</semanticResources>
-    <semanticResources>Attacker_Propagation_Accuracy/09/test_model.attacker</semanticResources>
-    <semanticResources>Attacker_Propagation_Accuracy/09/test_model.context</semanticResources>
-    <semanticResources>Attacker_Propagation_Accuracy/10/test_model.attacker</semanticResources>
-    <semanticResources>Attacker_Propagation_Accuracy/10/test_model.context</semanticResources>
     <semanticResources>Attacker_Propagation_Accuracy/02/01/test_model.attacker</semanticResources>
     <semanticResources>Attacker_Propagation_Accuracy/02/01/test_model.context</semanticResources>
     <semanticResources>Attacker_Propagation_Accuracy/02/01/test_model.kamp4attackmodificationmarks</semanticResources>
@@ -45,6 +27,66 @@
     <semanticResources>Attacker_Propagation_Accuracy/04/01/test_model.attacker</semanticResources>
     <semanticResources>Attacker_Propagation_Accuracy/04/01/test_model.context</semanticResources>
     <semanticResources>Attacker_Propagation_Accuracy/04/01/test_model.kamp4attackmodificationmarks</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/04/02/test_model.attacker</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/04/02/test_model.context</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/04/02/test_model.kamp4attackmodificationmarks</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/04/03/test_model.attacker</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/04/03/test_model.context</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/04/03/test_model.kamp4attackmodificationmarks</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/04/04/test_model.attacker</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/04/04/test_model.context</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/04/04/test_model.kamp4attackmodificationmarks</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/04/05/test_model.attacker</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/04/05/test_model.context</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/04/05/test_model.kamp4attackmodificationmarks</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/04/06/test_model.attacker</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/04/06/test_model.context</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/04/06/test_model.kamp4attackmodificationmarks</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/04/07/test_model.attacker</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/04/07/test_model.context</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/04/07/test_model.kamp4attackmodificationmarks</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/04/08/test_model.attacker</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/04/08/test_model.context</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/04/08/test_model.kamp4attackmodificationmarks</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/04/09/test_model.attacker</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/04/09/test_model.context</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/04/09/test_model.kamp4attackmodificationmarks</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/05/01/test_model.attacker</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/05/01/test_model.context</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/05/01/test_model.kamp4attackmodificationmarks</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/05/02/test_model.attacker</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/05/02/test_model.context</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/05/02/test_model.kamp4attackmodificationmarks</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/05/03/test_model.attacker</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/05/03/test_model.context</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/05/03/test_model.kamp4attackmodificationmarks</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/05/04/test_model.attacker</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/05/04/test_model.context</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/05/04/test_model.kamp4attackmodificationmarks</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/06/01/test_model.attacker</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/06/01/test_model.context</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/06/01/test_model.kamp4attackmodificationmarks</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/06/02/test_model.attacker</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/06/02/test_model.context</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/06/02/test_model.kamp4attackmodificationmarks</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/07/01/test_model.attacker</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/07/01/test_model.context</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/07/01/test_model.kamp4attackmodificationmarks</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/07/02/test_model.attacker</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/07/02/test_model.context</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/07/02/test_model.kamp4attackmodificationmarks</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/07/03/test_model.attacker</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/07/03/test_model.context</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/07/03/test_model.kamp4attackmodificationmarks</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/07/04/test_model.attacker</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/07/04/test_model.context</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/07/04/test_model.kamp4attackmodificationmarks</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/08/01/test_model.attacker</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/08/01/test_model.context</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/08/01/test_model.kamp4attackmodificationmarks</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/08/02/test_model.attacker</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/08/02/test_model.context</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/08/02/test_model.kamp4attackmodificationmarks</semanticResources>
     <ownedViews xmi:type="viewpoint:DView" uid="_7C11EDu6EeuWiYt-o9ZDSA">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.palladiosimulator.editors.sirius.assembly/description/assembly.odesign#//@ownedViewpoints[name='Assembly']"/>
       <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_7FuJ8Du6EeuWiYt-o9ZDSA" name="Assembly Diagram" repPath="#_7DGTwDu6EeuWiYt-o9ZDSA" changeId="a7fe75ea-4590-4d96-a5cf-659c66504305">
@@ -65,7 +107,7 @@
     </ownedViews>
     <ownedViews xmi:type="viewpoint:DView" uid="_DRt-IDyDEeuL26-fyeDGLQ">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.palladiosimulator.editors.sirius.allocation/description/allocation.odesign#//@ownedViewpoints[name='Allocation']"/>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_DYc4QDyDEeuL26-fyeDGLQ" name="Allocation Diagram" repPath="#_DSI04DyDEeuL26-fyeDGLQ" changeId="ced50254-4dea-48f9-a9c5-49d7155c4a03">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_DYc4QDyDEeuL26-fyeDGLQ" name="Allocation Diagram" repPath="#_DSI04DyDEeuL26-fyeDGLQ" changeId="0653b4f5-0805-4019-a5f7-c60318b20cb5">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.palladiosimulator.editors.sirius.allocation/description/allocation.odesign#//@ownedViewpoints[name='Allocation']/@ownedRepresentations[name='Allocation%20Diagram']"/>
         <target xmi:type="allocation:Allocation" href="cloud.allocation#_S7EUUBalEeabKfvw_S-vrQ"/>
       </ownedRepresentationDescriptors>
@@ -4798,6 +4840,24 @@
               <styles xmi:type="notation:ShapeStyle" xmi:id="_DZCuITyDEeuL26-fyeDGLQ" fontName="Cantarell" fontHeight="8"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DZCuIjyDEeuL26-fyeDGLQ" x="709" y="32"/>
             </children>
+            <children xmi:type="notation:Node" xmi:id="_LmuG4Ks0Eeu3hoHs-SW4Zg" type="3008" element="_LmePRqs0Eeu3hoHs-SW4Zg">
+              <children xmi:type="notation:Node" xmi:id="_Lm00kKs0Eeu3hoHs-SW4Zg" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_Lm1boKs0Eeu3hoHs-SW4Zg" type="7002">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_Lm1boas0Eeu3hoHs-SW4Zg"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_Lm1boqs0Eeu3hoHs-SW4Zg"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_LmuG4as0Eeu3hoHs-SW4Zg" fontName="Ubuntu" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LmuG4qs0Eeu3hoHs-SW4Zg" x="672" y="70"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_Lm2CsKs0Eeu3hoHs-SW4Zg" type="3008" element="_LmgrgKs0Eeu3hoHs-SW4Zg">
+              <children xmi:type="notation:Node" xmi:id="_Lm2Cs6s0Eeu3hoHs-SW4Zg" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_Lm2pwKs0Eeu3hoHs-SW4Zg" type="7002">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_Lm2pwas0Eeu3hoHs-SW4Zg"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_Lm2pwqs0Eeu3hoHs-SW4Zg"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_Lm2Csas0Eeu3hoHs-SW4Zg" fontName="Ubuntu" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Lm2Csqs0Eeu3hoHs-SW4Zg" x="679" y="77"/>
+            </children>
             <styles xmi:type="notation:SortingStyle" xmi:id="_DY152DyDEeuL26-fyeDGLQ"/>
             <styles xmi:type="notation:FilteringStyle" xmi:id="_DY152TyDEeuL26-fyeDGLQ"/>
           </children>
@@ -4939,24 +4999,6 @@
           <styles xmi:type="notation:ShapeStyle" xmi:id="_DY3vBDyDEeuL26-fyeDGLQ" fontName="Cantarell" fontHeight="8"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DY3vBTyDEeuL26-fyeDGLQ" x="7175" y="35"/>
         </children>
-        <children xmi:type="notation:Node" xmi:id="_DY4WEzyDEeuL26-fyeDGLQ" type="2002" element="_DYTuUDyDEeuL26-fyeDGLQ">
-          <children xmi:type="notation:Node" xmi:id="_DY49IDyDEeuL26-fyeDGLQ" type="5006"/>
-          <children xmi:type="notation:Node" xmi:id="_DY49ITyDEeuL26-fyeDGLQ" type="7001">
-            <styles xmi:type="notation:SortingStyle" xmi:id="_DY49IjyDEeuL26-fyeDGLQ"/>
-            <styles xmi:type="notation:FilteringStyle" xmi:id="_DY49IzyDEeuL26-fyeDGLQ"/>
-          </children>
-          <styles xmi:type="notation:ShapeStyle" xmi:id="_DY4WFDyDEeuL26-fyeDGLQ" fontName="Cantarell" fontHeight="8"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DY4WFTyDEeuL26-fyeDGLQ" x="7896" y="35"/>
-        </children>
-        <children xmi:type="notation:Node" xmi:id="_DY49JDyDEeuL26-fyeDGLQ" type="2002" element="_DYU8cTyDEeuL26-fyeDGLQ">
-          <children xmi:type="notation:Node" xmi:id="_DY49JzyDEeuL26-fyeDGLQ" type="5006"/>
-          <children xmi:type="notation:Node" xmi:id="_DY5kMDyDEeuL26-fyeDGLQ" type="7001">
-            <styles xmi:type="notation:SortingStyle" xmi:id="_DY5kMTyDEeuL26-fyeDGLQ"/>
-            <styles xmi:type="notation:FilteringStyle" xmi:id="_DY5kMjyDEeuL26-fyeDGLQ"/>
-          </children>
-          <styles xmi:type="notation:ShapeStyle" xmi:id="_DY49JTyDEeuL26-fyeDGLQ" fontName="Cantarell" fontHeight="8"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DY49JjyDEeuL26-fyeDGLQ" x="8106" y="35"/>
-        </children>
         <styles xmi:type="notation:DiagramStyle" xmi:id="_DYulEjyDEeuL26-fyeDGLQ"/>
       </data>
     </ownedAnnotationEntries>
@@ -5067,6 +5109,22 @@
         <target xmi:type="allocation:AllocationContext" href="cloud.allocation#_6WPeMBalEeabKfvw_S-vrQ"/>
         <semanticElements xmi:type="allocation:AllocationContext" href="cloud.allocation#_6WPeMBalEeabKfvw_S-vrQ"/>
         <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_DX765zyDEeuL26-fyeDGLQ" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.palladiosimulator.editors.sirius.allocation/description/allocation.odesign#//@ownedViewpoints[name='Allocation']/@ownedRepresentations[name='Allocation%20Diagram']/@defaultLayer/@containerMappings[name='ResourceContainer']/@subContainerMappings[name='Allocation_AssemblyContext']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.palladiosimulator.editors.sirius.allocation/description/allocation.odesign#//@ownedViewpoints[name='Allocation']/@ownedRepresentations[name='Allocation%20Diagram']/@defaultLayer/@containerMappings[name='ResourceContainer']/@subContainerMappings[name='Allocation_AssemblyContext']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_LmePRqs0Eeu3hoHs-SW4Zg" name="&lt;&lt;Allocation>>&#xA;Allocation_PublicCalendar" tooltipText="AllocationContext">
+        <target xmi:type="allocation:AllocationContext" href="cloud.allocation#_LkmnAKs0Eeu3hoHs-SW4Zg"/>
+        <semanticElements xmi:type="allocation:AllocationContext" href="cloud.allocation#_LkmnAKs0Eeu3hoHs-SW4Zg"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_LmfdYKs0Eeu3hoHs-SW4Zg" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.palladiosimulator.editors.sirius.allocation/description/allocation.odesign#//@ownedViewpoints[name='Allocation']/@ownedRepresentations[name='Allocation%20Diagram']/@defaultLayer/@containerMappings[name='ResourceContainer']/@subContainerMappings[name='Allocation_AssemblyContext']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.palladiosimulator.editors.sirius.allocation/description/allocation.odesign#//@ownedViewpoints[name='Allocation']/@ownedRepresentations[name='Allocation%20Diagram']/@defaultLayer/@containerMappings[name='ResourceContainer']/@subContainerMappings[name='Allocation_AssemblyContext']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_LmgrgKs0Eeu3hoHs-SW4Zg" name="&lt;&lt;Allocation>>&#xA;Allocation_PublicFileManager" tooltipText="AllocationContext">
+        <target xmi:type="allocation:AllocationContext" href="cloud.allocation#_Lkkx0Ks0Eeu3hoHs-SW4Zg"/>
+        <semanticElements xmi:type="allocation:AllocationContext" href="cloud.allocation#_Lkkx0Ks0Eeu3hoHs-SW4Zg"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_Lmgrgas0Eeu3hoHs-SW4Zg" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
           <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.palladiosimulator.editors.sirius.allocation/description/allocation.odesign#//@ownedViewpoints[name='Allocation']/@ownedRepresentations[name='Allocation%20Diagram']/@defaultLayer/@containerMappings[name='ResourceContainer']/@subContainerMappings[name='Allocation_AssemblyContext']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.palladiosimulator.editors.sirius.allocation/description/allocation.odesign#//@ownedViewpoints[name='Allocation']/@ownedRepresentations[name='Allocation%20Diagram']/@defaultLayer/@containerMappings[name='ResourceContainer']/@subContainerMappings[name='Allocation_AssemblyContext']"/>
@@ -5191,22 +5249,6 @@
         </ownedStyle>
         <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.palladiosimulator.editors.sirius.allocation/description/allocation.odesign#//@ownedViewpoints[name='Allocation']/@ownedRepresentations[name='Allocation%20Diagram']/@defaultLayer/@containerMappings[name='ResourceContainer']/@subContainerMappings[name='Allocation_AssemblyContext']"/>
       </ownedDiagramElements>
-    </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_DYTuUDyDEeuL26-fyeDGLQ" name="&lt;&lt;Assembly>>&#xA;PublicCalendar" tooltipText="AssemblyContext from the specified System, not associated with any valid AllocationContext">
-      <target xmi:type="composition:AssemblyContext" href="cloud.system#_3UQEEG9eEeam26epJlCOmw"/>
-      <semanticElements xmi:type="composition:AssemblyContext" href="cloud.system#_3UQEEG9eEeam26epJlCOmw"/>
-      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_DYUVYDyDEeuL26-fyeDGLQ" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
-        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.palladiosimulator.editors.sirius.allocation/description/allocation.odesign#//@ownedViewpoints[name='Allocation']/@ownedRepresentations[name='Allocation%20Diagram']/@defaultLayer/@containerMappings[name='AssemblyContext%20with%20no%20ResourceContainer']/@style"/>
-      </ownedStyle>
-      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.palladiosimulator.editors.sirius.allocation/description/allocation.odesign#//@ownedViewpoints[name='Allocation']/@ownedRepresentations[name='Allocation%20Diagram']/@defaultLayer/@containerMappings[name='AssemblyContext%20with%20no%20ResourceContainer']"/>
-    </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_DYU8cTyDEeuL26-fyeDGLQ" name="&lt;&lt;Assembly>>&#xA;PublicFileManager" tooltipText="AssemblyContext from the specified System, not associated with any valid AllocationContext">
-      <target xmi:type="composition:AssemblyContext" href="cloud.system#_2IfbkG9eEeam26epJlCOmw"/>
-      <semanticElements xmi:type="composition:AssemblyContext" href="cloud.system#_2IfbkG9eEeam26epJlCOmw"/>
-      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_DYVjgDyDEeuL26-fyeDGLQ" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
-        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.palladiosimulator.editors.sirius.allocation/description/allocation.odesign#//@ownedViewpoints[name='Allocation']/@ownedRepresentations[name='Allocation%20Diagram']/@defaultLayer/@containerMappings[name='AssemblyContext%20with%20no%20ResourceContainer']/@style"/>
-      </ownedStyle>
-      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.palladiosimulator.editors.sirius.allocation/description/allocation.odesign#//@ownedViewpoints[name='Allocation']/@ownedRepresentations[name='Allocation%20Diagram']/@defaultLayer/@containerMappings[name='AssemblyContext%20with%20no%20ResourceContainer']"/>
     </ownedDiagramElements>
     <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.palladiosimulator.editors.sirius.allocation/description/allocation.odesign#//@ownedViewpoints[name='Allocation']/@ownedRepresentations[name='Allocation%20Diagram']"/>
     <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_DSJb8DyDEeuL26-fyeDGLQ"/>

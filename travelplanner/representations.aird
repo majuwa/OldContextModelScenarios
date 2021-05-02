@@ -52,9 +52,6 @@
     <semanticResources>Attacker_Propagation_Accuracy/01/test_model_01_empty_attacker.attacker</semanticResources>
     <semanticResources>Attacker_Propagation_Accuracy/01/test_model_01_empty_attacker.context</semanticResources>
     <semanticResources>Attacker_Propagation_Accuracy/01/test_model_01_empty_attacker.kamp4attackmodificationmarks</semanticResources>
-    <semanticResources>Attacker_Propagation_Accuracy/06/test_model.attacker</semanticResources>
-    <semanticResources>Attacker_Propagation_Accuracy/06/test_model.context</semanticResources>
-    <semanticResources>Attacker_Propagation_Accuracy/06/test_model.kamp4attackmodificationmarks</semanticResources>
     <semanticResources>Attacker_Propagation_Accuracy/02/test_model_02_empty_attacker.attacker</semanticResources>
     <semanticResources>Attacker_Propagation_Accuracy/03/test_model.attacker</semanticResources>
     <semanticResources>Attacker_Propagation_Accuracy/03/test_model.context</semanticResources>
@@ -62,12 +59,6 @@
     <semanticResources>Attacker_Propagation_Accuracy/02/test_model.attacker</semanticResources>
     <semanticResources>Attacker_Propagation_Accuracy/02/test_model.context</semanticResources>
     <semanticResources>Attacker_Propagation_Accuracy/02/test_model.kamp4attackmodificationmarks</semanticResources>
-    <semanticResources>Attacker_Propagation_Accuracy/05/test_model.attacker</semanticResources>
-    <semanticResources>Attacker_Propagation_Accuracy/05/test_model.context</semanticResources>
-    <semanticResources>Attacker_Propagation_Accuracy/05/test_model.kamp4attackmodificationmarks</semanticResources>
-    <semanticResources>Attacker_Propagation_Accuracy/08/test_model.attacker</semanticResources>
-    <semanticResources>Attacker_Propagation_Accuracy/08/test_model.context</semanticResources>
-    <semanticResources>Attacker_Propagation_Accuracy/08/test_model.kamp4attackmodificationmarks</semanticResources>
     <semanticResources>Attacker_Propagation_Accuracy/04/01/test_model.attacker</semanticResources>
     <semanticResources>Attacker_Propagation_Accuracy/04/01/test_model.context</semanticResources>
     <semanticResources>Attacker_Propagation_Accuracy/04/01/test_model.kamp4attackmodificationmarks</semanticResources>
@@ -96,9 +87,42 @@
     <semanticResources>Attacker_Propagation_Accuracy/04/08/test_model.attacker</semanticResources>
     <semanticResources>Attacker_Propagation_Accuracy/04/08/test_model.context</semanticResources>
     <semanticResources>Attacker_Propagation_Accuracy/04/08/test_model.kamp4attackmodificationmarks</semanticResources>
-    <semanticResources>Attacker_Propagation_Accuracy/04/10/test_model.attacker</semanticResources>
-    <semanticResources>Attacker_Propagation_Accuracy/04/10/test_model.context</semanticResources>
-    <semanticResources>Attacker_Propagation_Accuracy/04/10/test_model.kamp4attackmodificationmarks</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/05/01/test_model.attacker</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/05/01/test_model.context</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/05/01/test_model.kamp4attackmodificationmarks</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/05/02/test_model.attacker</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/05/02/test_model.context</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/05/02/test_model.kamp4attackmodificationmarks</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/05/03/test_model.attacker</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/05/03/test_model.context</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/05/03/test_model.kamp4attackmodificationmarks</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/05/04/test_model.attacker</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/05/04/test_model.context</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/05/04/test_model.kamp4attackmodificationmarks</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/06/01/test_model.attacker</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/06/01/test_model.context</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/06/01/test_model.kamp4attackmodificationmarks</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/06/02/test_model.attacker</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/06/02/test_model.context</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/06/02/test_model.kamp4attackmodificationmarks</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/07/02/test_model.attacker</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/07/02/test_model.context</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/07/02/test_model.kamp4attackmodificationmarks</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/07/03/test_model.attacker</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/07/03/test_model.context</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/07/03/test_model.kamp4attackmodificationmarks</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/07/04/test_model.attacker</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/07/04/test_model.context</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/07/04/test_model.kamp4attackmodificationmarks</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/08/01/test_model.attacker</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/08/01/test_model.context</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/08/01/test_model.kamp4attackmodificationmarks</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/08/02/test_model.attacker</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/08/02/test_model.context</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/08/02/test_model.kamp4attackmodificationmarks</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/04/09/test_model.attacker</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/04/09/test_model.context</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/04/09/test_model.kamp4attackmodificationmarks</semanticResources>
     <ownedViews xmi:type="viewpoint:DView" uid="_caA6QNwrEeeel_96Qa_d5A">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.palladiosimulator.editors.sirius.repository/description/repository.odesign#//@ownedViewpoints[name='Repository']"/>
       <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_YiNQUNwtEeeel_96Qa_d5A" name="new Repository Diagram" repPath="#_YiMCMNwtEeeel_96Qa_d5A" changeId="0e3afd85-969d-4b65-8212-68e2c9f0c7a9">

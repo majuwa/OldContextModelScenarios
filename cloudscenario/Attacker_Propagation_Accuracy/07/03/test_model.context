@@ -31,6 +31,8 @@
     <policies id="_1L4VkDxmEeuB4alMTAqN-Q" entityName="AccessHardwareVMC" contexts="_nkRxQTyDEeuL26-fyeDGLQ"/>
     <policies id="_3DwdMDxmEeuB4alMTAqN-Q" entityName="AccessHardwareVMD" contexts="_nkRxQTyDEeuL26-fyeDGLQ"/>
     <policies id="_6XMj4DxmEeuB4alMTAqN-Q" entityName="AccessHardwareVME" contexts="_nkRxQTyDEeuL26-fyeDGLQ"/>
+    <policies id="_-jk0IKtIEeucJI6QIVusmg" entityName="Gain" contexts="_9L9g8atIEeucJI6QIVusmg"/>
+    <policies id="_Ucx_QKtNEeucJI6QIVusmg" entityName="Special" contexts="_SQE3IatNEeucJI6QIVusmg"/>
   </setContainer>
   <contextContainer id="_mEY7kSjqEeuoSrFTXjz8ug">
     <context xsi:type="model:HierarchicalContext" id="_xhdb0CjqEeuoSrFTXjz8ug" entityName="root" contexttype="_S5EE0C49EeuiX-NTW4lBww" including="_tQVR8Dx_EeuL26-fyeDGLQ _FSDwITyBEeuL26-fyeDGLQ _RwF-ITyBEeuL26-fyeDGLQ _OgG0ETyBEeuL26-fyeDGLQ"/>
@@ -47,6 +49,8 @@
     <context xsi:type="model:SingleAttributeContext" id="_RwF-ITyBEeuL26-fyeDGLQ" entityName="CloudAdmin" contexttype="_S5EE0C49EeuiX-NTW4lBww"/>
     <context xsi:type="model:SingleAttributeContext" id="_nByaITyBEeuL26-fyeDGLQ" entityName="PerformanceAdmin"/>
     <context xsi:type="model:SingleAttributeContext" id="_nkRxQTyDEeuL26-fyeDGLQ" entityName="HardwareMaintenance" contexttype="_S5EE0C49EeuiX-NTW4lBww"/>
+    <context xsi:type="model:SingleAttributeContext" id="_9L9g8atIEeucJI6QIVusmg" entityName="Gain"/>
+    <context xsi:type="model:SingleAttributeContext" id="_SQE3IatNEeucJI6QIVusmg" entityName="Special"/>
   </contextContainer>
   <typeContainer>
     <types id="_S5EE0C49EeuiX-NTW4lBww" entityName="User"/>
@@ -143,11 +147,14 @@
     <policyspecification xsi:type="asembly:SystemPolicySpecification" id="_8C-lsTxlEeuB4alMTAqN-Q" entityName="VME" policy="_6XMj4DxmEeuB4alMTAqN-Q">
       <resourcecontainer href="../../../cloud.resourceenvironment#_-GjmANQpEeWaFY2No-N26g"/>
     </policyspecification>
-    <policyspecification xsi:type="asembly:SystemPolicySpecification" id="_otG5IasyEeu3hoHs-SW4Zg" entityName="Connector" policy="_lTBOMDxgEeuB4alMTAqN-Q">
+    <policyspecification xsi:type="asembly:SystemPolicySpecification" id="_otG5IasyEeu3hoHs-SW4Zg" entityName="Connector" policy="_-jk0IKtIEeucJI6QIVusmg">
       <methodspecification>
         <connector xsi:type="composition:AssemblyConnector" href="../../../cloud.system#_1WO6YOuXEeWMdaaSirUv0Q"/>
         <signature xsi:type="repository:OperationSignature" href="../../../cloud.repository#_jiqKENDHEeWt5tzvTAzZ8A"/>
       </methodspecification>
     </policyspecification>
+    <attributeprovider id="_6K6x06tIEeucJI6QIVusmg" contextset="_-jk0IKtIEeucJI6QIVusmg">
+      <linkingresource href="../../../cloud.resourceenvironment#_PhSXgNQqEeWaFY2No-N26g"/>
+    </attributeprovider>
   </pcmspecificationcontainer>
 </context:ConfidentialAccessSpecification>

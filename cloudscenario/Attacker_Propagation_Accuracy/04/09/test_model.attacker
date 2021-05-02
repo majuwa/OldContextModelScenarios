@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<attacker:AttackerSpecification xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:attack="http://www.palladiosimulator.org/pcm/confidentiality/attacker/0.1/" xmlns:attacker="http://www.palladiosimulator.org/pcm/confidentiality/attack/0.1/" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2">
+  <attackers>
+    <attacker id="_e5aL8Kd4EeuyobD7xRWqAQ" entityName="Test" attacks="_g_pBsKszEeu3hoHs-SW4Zg">
+      <compromisedResources href="../../../cloud.resourceenvironment#_qT4FsNQpEeWaFY2No-N26g"/>
+      <compromiseddata id="_cg-1UKtEEeucJI6QIVusmg" referenceName="q">
+        <dataType xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+        <source href="../../../cloud.repository#_ZWh30NDIEeWt5tzvTAzZ8A"/>
+      </compromiseddata>
+      <compromiseddata id="_cg-1UatEEeucJI6QIVusmg" referenceName="table">
+        <dataType xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+        <source href="../../../cloud.repository#_ZWh30NDIEeWt5tzvTAzZ8A"/>
+      </compromiseddata>
+      <compromiseddata id="_cg-1UqtEEeucJI6QIVusmg" referenceName="data">
+        <dataType xsi:type="repository:CollectionDataType" href="../../../cloud.repository#_szgDXNDHEeWt5tzvTAzZ8A"/>
+        <source href="../../../cloud.repository#_ZWh30NDIEeWt5tzvTAzZ8A"/>
+      </compromiseddata>
+      <compromiseddata id="_cg-1U6tEEeucJI6QIVusmg" referenceName="table">
+        <dataType xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+        <source href="../../../cloud.repository#_ZWh30NDIEeWt5tzvTAzZ8A"/>
+      </compromiseddata>
+      <compromiseddata id="_cg-1VKtEEeucJI6QIVusmg" referenceName="data">
+        <dataType xsi:type="repository:CollectionDataType" href="../../../cloud.repository#_szgDXNDHEeWt5tzvTAzZ8A"/>
+        <source href="../../../cloud.repository#_ZWh30NDIEeWt5tzvTAzZ8A"/>
+      </compromiseddata>
+      <compromiseddata id="_cg-1VatEEeucJI6QIVusmg" referenceName="f">
+        <dataType xsi:type="repository:CompositeDataType" href="../../../cloud.repository#_n6MALTFgEeadhIGaXELbXg"/>
+        <source href="../../../cloud.repository#_ZWh30NDIEeWt5tzvTAzZ8A"/>
+      </compromiseddata>
+      <compromiseddata id="_cg-1VqtEEeucJI6QIVusmg" referenceName="table">
+        <dataType xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+        <source href="../../../cloud.repository#_ZWh30NDIEeWt5tzvTAzZ8A"/>
+      </compromiseddata>
+      <compromiseddata id="_cg-1V6tEEeucJI6QIVusmg" referenceName="data">
+        <dataType xsi:type="repository:CollectionDataType" href="../../../cloud.repository#_szgDXNDHEeWt5tzvTAzZ8A"/>
+        <source href="../../../cloud.repository#_ZWh30NDIEeWt5tzvTAzZ8A"/>
+      </compromiseddata>
+      <compromiseddata id="_cg-1WKtEEeucJI6QIVusmg" referenceName="table">
+        <dataType xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+        <source href="../../../cloud.repository#_ZWh30NDIEeWt5tzvTAzZ8A"/>
+      </compromiseddata>
+      <compromiseddata id="_cg-1WatEEeucJI6QIVusmg" referenceName="condition">
+        <dataType xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+        <source href="../../../cloud.repository#_ZWh30NDIEeWt5tzvTAzZ8A"/>
+      </compromiseddata>
+      <compromiseddata id="_cg-1WqtEEeucJI6QIVusmg">
+        <dataType xsi:type="repository:CollectionDataType" href="../../../cloud.repository#_wiFN7NDHEeWt5tzvTAzZ8A"/>
+        <source href="../../../cloud.repository#_jiqKENDHEeWt5tzvTAzZ8A"/>
+      </compromiseddata>
+      <compromiseddata id="_cg-1W6tEEeucJI6QIVusmg">
+        <dataType xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+        <source href="../../../cloud.repository#_9pyD8NDHEeWt5tzvTAzZ8A"/>
+      </compromiseddata>
+      <compromiseddata id="_cg-1XKtEEeucJI6QIVusmg">
+        <dataType xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+        <source href="../../../cloud.repository#_FyG18NDIEeWt5tzvTAzZ8A"/>
+      </compromiseddata>
+      <compromiseddata id="_cg-1XatEEeucJI6QIVusmg">
+        <dataType xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+        <source href="../../../cloud.repository#_JommYNDIEeWt5tzvTAzZ8A"/>
+      </compromiseddata>
+      <compromiseddata id="_cg-1XqtEEeucJI6QIVusmg">
+        <dataType xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+        <source href="../../../cloud.repository#_N5DH4NDIEeWt5tzvTAzZ8A"/>
+      </compromiseddata>
+      <compromiseddata id="_cg-1X6tEEeucJI6QIVusmg">
+        <dataType xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+        <source href="../../../cloud.repository#_30XTQNDIEeWt5tzvTAzZ8A"/>
+      </compromiseddata>
+      <compromiseddata id="_31dy5KtHEeucJI6QIVusmg" referenceName="level">
+        <dataType xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+        <source href="../../../cloud.repository#_zLeAENDJEeWt5tzvTAzZ8A"/>
+      </compromiseddata>
+      <compromiseddata id="_31dy5atHEeucJI6QIVusmg" referenceName="level">
+        <dataType xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+        <source href="../../../cloud.repository#_zLeAENDJEeWt5tzvTAzZ8A"/>
+      </compromiseddata>
+      <compromiseddata id="_31dy5qtHEeucJI6QIVusmg" referenceName="text">
+        <dataType xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+        <source href="../../../cloud.repository#_zLeAENDJEeWt5tzvTAzZ8A"/>
+      </compromiseddata>
+      <compromiseddata id="_31dy56tHEeucJI6QIVusmg">
+        <dataType xsi:type="repository:CollectionDataType" href="../../../cloud.repository#_0Tk_DNDGEeWt5tzvTAzZ8A"/>
+        <source href="../../../cloud.repository#_o4BPwNDIEeWt5tzvTAzZ8A"/>
+      </compromiseddata>
+      <compromiseddata id="_31eZ4KtHEeucJI6QIVusmg">
+        <dataType xsi:type="repository:CollectionDataType" href="../../../cloud.repository#_QcXrINDGEeWt5tzvTAzZ8A"/>
+        <source href="../../../cloud.repository#_ZeFjQNDGEeWt5tzvTAzZ8A"/>
+      </compromiseddata>
+      <compromiseddata id="_31eZ5qtHEeucJI6QIVusmg">
+        <dataType xsi:type="repository:CollectionDataType" href="../../../cloud.repository#_0Tk_DNDGEeWt5tzvTAzZ8A"/>
+        <source href="../../../cloud.repository#_o4BPwNDIEeWt5tzvTAzZ8A"/>
+      </compromiseddata>
+      <compromiseddata id="_31eZ6KtHEeucJI6QIVusmg" referenceName="filepath">
+        <dataType xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+        <source href="../../../cloud.repository#_jUlkkG9GEeam26epJlCOmw"/>
+      </compromiseddata>
+      <compromiseddata id="_31eZ6atHEeucJI6QIVusmg" referenceName="host">
+        <dataType xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+        <source href="../../../cloud.repository#_jUlkkG9GEeam26epJlCOmw"/>
+      </compromiseddata>
+      <compromiseddata id="_31eZ6qtHEeucJI6QIVusmg" referenceName="dir">
+        <dataType xsi:type="repository:CompositeDataType" href="../../../cloud.repository#_g453ndDdEeWt5tzvTAzZ8A"/>
+        <source href="../../../cloud.repository#_jUlkkG9GEeam26epJlCOmw"/>
+      </compromiseddata>
+      <compromiseddata id="_31eZ66tHEeucJI6QIVusmg">
+        <dataType xsi:type="repository:CompositeDataType" href="../../../cloud.repository#_fxCQndDdEeWt5tzvTAzZ8A"/>
+        <source href="../../../cloud.repository#_j4Hj8G6MEeam26epJlCOmw"/>
+      </compromiseddata>
+      <compromiseddata id="_31eZ7KtHEeucJI6QIVusmg">
+        <dataType xsi:type="repository:CompositeDataType" href="../../../cloud.repository#_g453ndDdEeWt5tzvTAzZ8A"/>
+        <source href="../../../cloud.repository#_ki_F4G6MEeam26epJlCOmw"/>
+      </compromiseddata>
+      <compromiseddata id="_31eZ7atHEeucJI6QIVusmg">
+        <dataType xsi:type="repository:CollectionDataType" href="../../../cloud.repository#_szgDXNDHEeWt5tzvTAzZ8A"/>
+        <source href="../../../cloud.repository#_mdiHAG6MEeam26epJlCOmw"/>
+      </compromiseddata>
+      <compromiseddata id="_31eZ7qtHEeucJI6QIVusmg">
+        <dataType xsi:type="repository:CollectionDataType" href="../../../cloud.repository#_QcXrINDGEeWt5tzvTAzZ8A"/>
+        <source href="../../../cloud.repository#_EVc3cNDYEeWt5tzvTAzZ8A"/>
+      </compromiseddata>
+      <compromiseddata id="_31eZ76tHEeucJI6QIVusmg">
+        <dataType xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+        <source href="../../../cloud.repository#_FlKy4NDYEeWt5tzvTAzZ8A"/>
+      </compromiseddata>
+      <compromiseddata id="_31eZ8KtHEeucJI6QIVusmg">
+        <dataType xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+        <source href="../../../cloud.repository#_Fxhz4NDYEeWt5tzvTAzZ8A"/>
+      </compromiseddata>
+      <compromiseddata id="_31eZ8atHEeucJI6QIVusmg">
+        <dataType xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+        <source href="../../../cloud.repository#_IRDxYNDYEeWt5tzvTAzZ8A"/>
+      </compromiseddata>
+      <compromiseddata id="_31eZ8qtHEeucJI6QIVusmg">
+        <dataType xsi:type="repository:CollectionDataType" href="../../../cloud.repository#_szgDXNDHEeWt5tzvTAzZ8A"/>
+        <source href="../../../cloud.repository#_I-opENDYEeWt5tzvTAzZ8A"/>
+      </compromiseddata>
+      <compromiseddata id="_31eZ86tHEeucJI6QIVusmg">
+        <dataType xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+        <source href="../../../cloud.repository#_Jm0DYNDYEeWt5tzvTAzZ8A"/>
+      </compromiseddata>
+      <compromiseddata id="_31eZ9KtHEeucJI6QIVusmg">
+        <dataType xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+        <source href="../../../cloud.repository#_KHsi4NDYEeWt5tzvTAzZ8A"/>
+      </compromiseddata>
+      <compromiseddata id="_31eZ9atHEeucJI6QIVusmg" referenceName="id">
+        <dataType xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+        <source href="../../../cloud.repository#_k4_WkG9GEeam26epJlCOmw"/>
+      </compromiseddata>
+      <compromiseddata id="_31eZ9qtHEeucJI6QIVusmg" referenceName="start">
+        <dataType xsi:type="repository:CompositeDataType" href="../../../cloud.repository#_2pbsDdDaEeWt5tzvTAzZ8A"/>
+        <source href="../../../cloud.repository#_k4_WkG9GEeam26epJlCOmw"/>
+      </compromiseddata>
+      <compromiseddata id="_31eZ96tHEeucJI6QIVusmg" referenceName="end">
+        <dataType xsi:type="repository:CompositeDataType" href="../../../cloud.repository#_2pbsDdDaEeWt5tzvTAzZ8A"/>
+        <source href="../../../cloud.repository#_k4_WkG9GEeam26epJlCOmw"/>
+      </compromiseddata>
+      <compromiseddata id="_31eZ-KtHEeucJI6QIVusmg">
+        <dataType xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+        <source href="../../../cloud.repository#_s4szoG6MEeam26epJlCOmw"/>
+      </compromiseddata>
+      <compromiseddata id="_31eZ-atHEeucJI6QIVusmg">
+        <dataType xsi:type="repository:CollectionDataType" href="../../../cloud.repository#_bTkuLNDaEeWt5tzvTAzZ8A"/>
+        <source href="../../../cloud.repository#_tMzbYG6MEeam26epJlCOmw"/>
+      </compromiseddata>
+      <compromiseddata id="_31eZ-qtHEeucJI6QIVusmg">
+        <dataType xsi:type="repository:CompositeDataType" href="../../../cloud.repository#_Ye5nHdDaEeWt5tzvTAzZ8A"/>
+        <source href="../../../cloud.repository#_K2T8YNDYEeWt5tzvTAzZ8A"/>
+      </compromiseddata>
+      <compromiseddata id="_31eZ-6tHEeucJI6QIVusmg">
+        <dataType xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+        <source href="../../../cloud.repository#_Ls3w8NDYEeWt5tzvTAzZ8A"/>
+      </compromiseddata>
+      <compromiseddata id="_31eZ_KtHEeucJI6QIVusmg">
+        <dataType xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+        <source href="../../../cloud.repository#_Mz974NDYEeWt5tzvTAzZ8A"/>
+      </compromiseddata>
+      <compromiseddata id="_31eZ_atHEeucJI6QIVusmg">
+        <dataType xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+        <source href="../../../cloud.repository#_Nf6b4NDYEeWt5tzvTAzZ8A"/>
+      </compromiseddata>
+      <compromiseddata id="_31eZ_qtHEeucJI6QIVusmg">
+        <dataType xsi:type="repository:CollectionDataType" href="../../../cloud.repository#_bTkuLNDaEeWt5tzvTAzZ8A"/>
+        <source href="../../../cloud.repository#_OSRF4NDYEeWt5tzvTAzZ8A"/>
+      </compromiseddata>
+      <compromiseddata id="_31eZ_6tHEeucJI6QIVusmg">
+        <dataType xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+        <source href="../../../cloud.repository#_SlkRoNDZEeWt5tzvTAzZ8A"/>
+      </compromiseddata>
+      <compromiseddata id="_31eaAKtHEeucJI6QIVusmg">
+        <dataType xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+        <source href="../../../cloud.repository#_Tb0kMNDZEeWt5tzvTAzZ8A"/>
+      </compromiseddata>
+    </attacker>
+  </attackers>
+  <attacks>
+    <attack xsi:type="attack:CWEAttack" id="_rpe98KsiEeu0I5EfY090pg" entityName="attack DesktopClient" category="//@categoryspecification/@categories.2"/>
+    <attack xsi:type="attack:CWEAttack" id="_g_pBsKszEeu3hoHs-SW4Zg" entityName="Linking" category="//@categoryspecification/@categories.11"/>
+    <attack xsi:type="attack:CVEAttack" id="_-kEH4as-Eeuoh_WdUErZNg" entityName="attackServer" category="//@categoryspecification/@categories.4"/>
+  </attacks>
+  <vulnerabilites>
+    <vulnerability xsi:type="attack:CVEVulnerability" cweID="//@categoryspecification/@categories.2" entityName="Desktop" attackVector="Network" confidentialityImpact="High" takeOver="true" cveID="//@categoryspecification/@categories.0"/>
+    <vulnerability xsi:type="attack:CVEVulnerability" cweID="//@categoryspecification/@categories.3" entityName="Vulnerability Server" attackVector="Local" privileges="Low" confidentialityImpact="High" takeOver="true" cveID="//@categoryspecification/@categories.4"/>
+    <vulnerability xsi:type="attack:CVEVulnerability" cweID="//@categoryspecification/@categories.6 //@categoryspecification/@categories.7" entityName="Attack-Nextcloud-Component-Password" attackVector="Local" confidentialityImpact="High" cveID="//@categoryspecification/@categories.5">
+      <gainedPrivilege href="test_model.context#_-fHYUDxiEeuB4alMTAqN-Q"/>
+    </vulnerability>
+    <vulnerability xsi:type="attack:CVEVulnerability" cweID="//@categoryspecification/@categories.9" entityName="AccessMailServer" attackVector="Network" confidentialityImpact="High" cveID="//@categoryspecification/@categories.8">
+      <gainedPrivilege href="test_model.context#_L8ajkDxmEeuB4alMTAqN-Q"/>
+    </vulnerability>
+    <vulnerability xsi:type="attack:CVEVulnerability" cweID="//@categoryspecification/@categories.11" entityName="Linking" attackVector="Network" confidentialityImpact="High" takeOver="true" cveID="//@categoryspecification/@categories.10"/>
+  </vulnerabilites>
+  <categoryspecification>
+    <categories xsi:type="attack:CVEID" entityName="Nextcloud Desktop" cveID="2021-22879"/>
+    <categories xsi:type="attack:CWEID" entityName="Improper Control of Resource Identifiers" cweID="99" children="//@categoryspecification/@categories.2"/>
+    <categories xsi:type="attack:CWEID" entityName="Improper Neutralization of Special Elements in Output Used by a Downstream Component" cweID="74" parents="//@categoryspecification/@categories.1"/>
+    <categories xsi:type="attack:CWEID" entityName="Incorrect Privilege Assignment" cweID="266"/>
+    <categories xsi:type="attack:CVEID" entityName="Attack Server" cveID="2019-3843"/>
+    <categories xsi:type="attack:CVEID" entityName="Attack-Nextcloud-Password" cveID="2020-8296"/>
+    <categories xsi:type="attack:CWEID" entityName="Weak Password Requirements" cweID="521"/>
+    <categories xsi:type="attack:CWEID" entityName="Storing Passwords in a Recoverable Format" cweID="257"/>
+    <categories xsi:type="attack:CVEID" entityName="Vulnerability-Server-Email" cveID="2021-28374"/>
+    <categories xsi:type="attack:CWEID" entityName="Cleartext Storage of Sensitive Information" cweID="312"/>
+    <categories xsi:type="attack:CVEID" entityName="Syn" cveID="Syn"/>
+    <categories xsi:type="attack:CWEID" entityName="Syn" cweID="9999"/>
+  </categoryspecification>
+  <systemintegration>
+    <vulnerabilities id="_zZlKQKsvEeu3hoHs-SW4Zg" vulnerability="//@vulnerabilites/@vulnerability.0">
+      <assemblycontext href="../../../cloud.system#_YHrRABaCEeabKfvw_S-vrQ"/>
+    </vulnerabilities>
+    <vulnerabilities id="_8TejIKsvEeu3hoHs-SW4Zg" vulnerability="//@vulnerabilites/@vulnerability.2">
+      <assemblycontext href="../../../cloud.system#_lmyX8NSLEeWaFY2No-N26g"/>
+    </vulnerabilities>
+    <vulnerabilities id="_-RWlEKsvEeu3hoHs-SW4Zg" vulnerability="//@vulnerabilites/@vulnerability.1">
+      <resourcecontainer href="../../../cloud.resourceenvironment#_qT4FsNQpEeWaFY2No-N26g"/>
+    </vulnerabilities>
+    <vulnerabilities id="_kcUZYKsyEeu3hoHs-SW4Zg" vulnerability="//@vulnerabilites/@vulnerability.4">
+      <linkingresource href="../../../cloud.resourceenvironment#_tfftINQpEeWaFY2No-N26g"/>
+    </vulnerabilities>
+  </systemintegration>
+</attacker:AttackerSpecification>

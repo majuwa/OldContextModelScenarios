@@ -86,4 +86,12 @@
     <resourceContainer_AllocationContext href="cloud.resourceenvironment#_KNx2gNQqEeWaFY2No-N26g"/>
     <assemblyContext_AllocationContext href="cloud.system#_mDYW4BaCEeabKfvw_S-vrQ"/>
   </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_Lkkx0Ks0Eeu3hoHs-SW4Zg" entityName="Allocation_PublicFileManager">
+    <resourceContainer_AllocationContext href="cloud.resourceenvironment#_m0JPcNQpEeWaFY2No-N26g"/>
+    <assemblyContext_AllocationContext href="cloud.system#_2IfbkG9eEeam26epJlCOmw"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_LkmnAKs0Eeu3hoHs-SW4Zg" entityName="Allocation_PublicCalendar">
+    <resourceContainer_AllocationContext href="cloud.resourceenvironment#_m0JPcNQpEeWaFY2No-N26g"/>
+    <assemblyContext_AllocationContext href="cloud.system#_3UQEEG9eEeam26epJlCOmw"/>
+  </allocationContexts_Allocation>
 </allocation:Allocation>
