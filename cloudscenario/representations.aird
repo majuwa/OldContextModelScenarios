@@ -16,9 +16,6 @@
     <semanticResources>environment:/viewpoint</semanticResources>
     <semanticResources>default.system</semanticResources>
     <semanticResources>default.resourceenvironment</semanticResources>
-    <semanticResources>Attacker_Propagation_Accuracy/02/01/test_model.attacker</semanticResources>
-    <semanticResources>Attacker_Propagation_Accuracy/02/01/test_model.context</semanticResources>
-    <semanticResources>Attacker_Propagation_Accuracy/02/01/test_model.kamp4attackmodificationmarks</semanticResources>
     <semanticResources>Attacker_Propagation_Accuracy/02/01/test_model_01_empty_attacker.attacker</semanticResources>
     <semanticResources>Attacker_Propagation_Accuracy/03/01/test_model.attacker</semanticResources>
     <semanticResources>Attacker_Propagation_Accuracy/03/01/test_model.context</semanticResources>
@@ -87,6 +84,10 @@
     <semanticResources>Attacker_Propagation_Accuracy/08/02/test_model.attacker</semanticResources>
     <semanticResources>Attacker_Propagation_Accuracy/08/02/test_model.context</semanticResources>
     <semanticResources>Attacker_Propagation_Accuracy/08/02/test_model.kamp4attackmodificationmarks</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/02/test_model.attacker</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/02/test_model.context</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/02/test_model.kamp4attackmodificationmarks</semanticResources>
+    <semanticResources>Attacker_Propagation_Accuracy/02/test_model_01_empty_attacker.attacker</semanticResources>
     <ownedViews xmi:type="viewpoint:DView" uid="_7C11EDu6EeuWiYt-o9ZDSA">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.palladiosimulator.editors.sirius.assembly/description/assembly.odesign#//@ownedViewpoints[name='Assembly']"/>
       <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_7FuJ8Du6EeuWiYt-o9ZDSA" name="Assembly Diagram" repPath="#_7DGTwDu6EeuWiYt-o9ZDSA" changeId="a7fe75ea-4590-4d96-a5cf-659c66504305">
